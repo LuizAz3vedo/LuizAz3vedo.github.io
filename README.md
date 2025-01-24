@@ -30,6 +30,51 @@
 
 
 ### 📂 Projetos
+
+---
+
+## ♟️ [Projeto de Análise de Dados de Xadrez](https://github.com/LuizAz3vedo/ChessProject)
+
+<div align="center">
+  <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/e4c26e35-13c4-4541-a8f4-bd9f6d078937" alt="Chess Analysis" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/0183f766-f8c1-424c-b7d5-3c9ae1e70e31" alt="Chess Analysis" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/a49472a6-ddfb-4a50-b77b-35eeb7f1179f" alt="Chess Analysis" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este projeto tem como objetivo realizar uma análise de dados de partidas de xadrez, utilizando um dataset do **Lichess** com mais de **20.000 partidas**. A análise inclui a criação de diversos gráficos para entender melhor o desempenho dos jogadores em relação a diferentes faixas de pontuação.
+
+### 🛠️ **Principais Bibliotecas Utilizadas**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-008DE4?style=for-the-badge&logo=plotly&logoColor=white)
+
+### 📊 **Objetivos do Projeto**
+- Analisar o desempenho dos jogadores em diferentes faixas de pontuação.
+- Criar visualizações interativas para explorar os dados.
+- Identificar padrões e tendências nas partidas de xadrez.
+
+---
+
+## 📈 [Painel de BI + K-means](https://github.com/LuizAz3vedo/BI_kmeans)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7aa0b3d9-cad5-4090-99de-77ff7c970951" alt="BI + K-means" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este é um projeto desenvolvido durante o curso de **Power BI** da **DSA**. O objetivo do projeto é utilizar o algoritmo **K-means** para construir um modelo de Machine Learning para segmentação de clientes e, em seguida, integrar esses resultados a um dashboard no **Power BI**.
+
+### 🛠️ **Principais Bibliotecas Utilizadas**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+
+### 📊 **Objetivos do Projeto**
+- Aplicar o algoritmo **K-means** para segmentação de clientes.
+- Integrar os resultados do modelo a um dashboard interativo no **Power BI**.
+- Visualizar insights sobre o comportamento e perfil dos clientes.
+
+---
+
 ## 🤖 [Estudos em IA](https://github.com/LuizAz3vedo/AI-Study)
 
 <div align="center">
