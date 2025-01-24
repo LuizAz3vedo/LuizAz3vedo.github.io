@@ -33,7 +33,7 @@
 [**Estudos em IA**](https://github.com/LuizAz3vedo/AI-Study)  
 
 <div align="center">
-  <img src="/assets/ml.jpg" alt="Machine Learning" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="/assets/ml.png" alt="Machine Learning" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 Este repositório contém uma coleção de notebooks, códigos e projetos relacionados aos meus estudos em Inteligência Artificial (IA) e Machine Learning (ML).
