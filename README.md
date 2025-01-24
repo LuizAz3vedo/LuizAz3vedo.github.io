@@ -61,7 +61,7 @@ Este repositório é um reflexo da minha jornada de aprendizado em IA e ML. Aqui
 ## 🧠 [Projeto de Estruturas de Dados e Algoritmos](https://github.com/LuizAz3vedo/Estrutura-de-Dados)
 
 <div align="center">
-  <img src="assets/datasctructures.png" alt="Algorithms and Data Structures" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="assets/datastructures.png" alt="Algorithms and Data Structures" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 Este projeto é uma jornada pelo fascinante mundo das estruturas de dados e algoritmos, inspirado no livro **"Entendendo Algoritmos: Um Guia Ilustrado"**. Aqui estão algumas das estruturas e algoritmos abordados:
@@ -80,7 +80,7 @@ Cada implementação neste projeto é uma oportunidade de aprendizado, uma aplic
 ## 📊 [Projeto de Grafos](https://github.com/LuizAz3vedo/graphs)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9a75a406-6622-44ba-a221-0cd521f28d0e" alt="Understanding Graph Data Structure" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="assets/graph.png" alt="Understanding Graph Data Structure" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 Este repositório contém implementações de algoritmos clássicos de grafos, desenvolvidos em **Python** no ambiente do **Google Colaboratory (Colab)**.
