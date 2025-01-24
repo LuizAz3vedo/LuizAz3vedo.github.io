@@ -1,4 +1,10 @@
 # Data Scientist
+
+### 🛠️ **Tecnologias que Utilizo**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ---
 
 ### 🎓 Educação
@@ -145,6 +151,7 @@ Fique à vontade para entrar em contato comigo:
 
 - **Email**: [luizazevedo3212@hotmail.com](mailto:luizazevedo3212@hotmail.com)
 - **LinkedIn**: [Luiz Antônio Azevedo](https://www.linkedin.com/in/luiz-ant%C3%B4nio-azevedo-34b38b23a/)
+- **Currículo**: [Meu currículo](https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing)
 ---
 
 <div align="center">
