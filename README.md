@@ -28,24 +28,17 @@
 
 ---
 
+
+### 📂 Projetos
+[**Estudos em IA**](https://github.com/LuizAz3vedo/AI-Study)  
+<img src="/assets/ml.jpeg">)  
+Este repositório contém uma coleção de notebooks, códigos e projetos relacionados aos meus estudos em Inteligência Artificial (IA) e Machine Learning (ML).
+
 ### 🛠️ Tecnologias Utilizadas
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
----
-
-### 📂 Projetos
-[**Estudos em IA**](https://github.com/LuizAz3vedo/AI-Study)  
-![intelligence brain and special patterns](https://github.com/user-attachments/assets/f365633d-09b9-4c26-bb94-20db563a303a)  
-Este repositório contém uma coleção de notebooks, códigos e projetos relacionados aos meus estudos em Inteligência Artificial (IA) e Machine Learning (ML).
-
-**Tecnologias Utilizadas**  
-- Python  
-- TensorFlow  
-- PyTorch  
-- Scikit-learn  
+![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
 
 **Modelos**  
 - Árvores de Decisão  
