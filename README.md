@@ -31,7 +31,7 @@
 
 ### 📂 Projetos
 [**Estudos em IA**](https://github.com/LuizAz3vedo/AI-Study)  
-<img src="/assets/ml.jpeg">)  
+<img src="/assets/ml.jpg">)  
 Este repositório contém uma coleção de notebooks, códigos e projetos relacionados aos meus estudos em Inteligência Artificial (IA) e Machine Learning (ML).
 
 ### 🛠️ Tecnologias Utilizadas
