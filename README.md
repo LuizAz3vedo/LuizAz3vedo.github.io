@@ -1,10 +1,4 @@
 # Data Scientist
-
-<div align="center">
-  <img src="/assets/me.jpeg" alt="Luiz Az3vedo" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
-  <h1>Luiz Az3vedo</h1>
-</div>
-
 ---
 
 ### 🎓 Educação
