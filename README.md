@@ -84,7 +84,7 @@ Este é um projeto desenvolvido durante o curso de **Power BI** da **DSA**. O ob
 ## 📊 [Análise de Performance de Grupos com Cashback](https://github.com/LuizAz3vedo/Painel_Analise_Cashback)
 
 <div align="center">
-  <img src="assets/cashback_analysis.png" alt="Análise de Performance de Grupos com Cashback" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 Este repositório contém uma análise de performance de três grupos de usuários com diferentes porcentagens de cashback. O objetivo foi determinar qual estratégia de cashback foi mais eficaz, utilizando técnicas de análise de dados e visualização.
