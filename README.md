@@ -109,6 +109,30 @@ Este repositório é um reflexo da minha jornada de aprendizado em IA e ML. Aqui
 
 ---
 
+## 📊 [NPL-Twitter: Análise e Classificação de Tweets Relacionados a Desastres](https://github.com/LuizAz3vedo/NPL-Twitter)
+
+<div align="center">
+  <img src="assets/twitter_analysis.png" alt="Análise de Tweets com NLP" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este repositório contém um projeto de análise e classificação de tweets relacionados a desastres, utilizando técnicas de **Processamento de Linguagem Natural (NLP)** e **Aprendizado de Máquina**. O projeto foi desenvolvido em **Python** e utiliza bibliotecas como **Pandas**, **Scikit-learn**, e **NLTK**.
+
+---
+
+### 🛠️ **Técnicas e Modelos Utilizados**
+- **Pré-processamento de Texto**: Limpeza, tokenização, remoção de stopwords.
+- **Modelos de Classificação**:
+  - **LinearSVC**
+  - **Logistic Regression**
+  - **Naive Bayes (NB)**
+- **Avaliação de Modelos**: F1-score, AUC-ROC, Matriz de Confusão.
+
+### 📝 **Sobre o Projeto**
+
+O objetivo principal deste projeto é classificar tweets em duas categorias: **0** para tweets não relacionados a desastres reais e **1** para tweets relacionados a desastres reais. O projeto envolve:
+
+---
+
 ## 🧠 [Projeto de Estruturas de Dados e Algoritmos](https://github.com/LuizAz3vedo/Estrutura-de-Dados)
 
 <div align="center">
@@ -144,6 +168,8 @@ Este repositório contém implementações de algoritmos clássicos de grafos, d
 - **Dijkstra** (Algoritmo de Caminho Mínimo)
 
 ---
+
+
 
 ## 📞 **Contato**
 
