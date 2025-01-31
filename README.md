@@ -112,7 +112,7 @@ Este repositório é um reflexo da minha jornada de aprendizado em IA e ML. Aqui
 ## 📊 [NPL-Twitter: Análise e Classificação de Tweets Relacionados a Desastres](https://github.com/LuizAz3vedo/NPL-Twitter)
 
 <div align="center">
-  <img src="assets/twitter_analysis.png" alt="Análise de Tweets com NLP" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <img src="assets/npl.png" alt="Análise de Tweets com NLP" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 Este repositório contém um projeto de análise e classificação de tweets relacionados a desastres, utilizando técnicas de **Processamento de Linguagem Natural (NLP)** e **Aprendizado de Máquina**. O projeto foi desenvolvido em **Python** e utiliza bibliotecas como **Pandas**, **Scikit-learn**, e **NLTK**.
