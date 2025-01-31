@@ -81,6 +81,33 @@ Este é um projeto desenvolvido durante o curso de **Power BI** da **DSA**. O ob
 
 ---
 
+## 📊 [Análise de Performance de Grupos com Cashback](https://github.com/LuizAz3vedo/Painel_Analise_Cashback)
+
+<div align="center">
+  <img src="assets/cashback_analysis.png" alt="Análise de Performance de Grupos com Cashback" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este repositório contém uma análise de performance de três grupos de usuários com diferentes porcentagens de cashback. O objetivo foi determinar qual estratégia de cashback foi mais eficaz, utilizando técnicas de análise de dados e visualização.
+
+---
+
+### 🛠️ **Ferramentas Utilizadas**
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **Power BI** (para criação de dashboards)
+- **Excel** (para pré-processamento de dados)
+
+---
+
+### 📝 **Descrição do Projeto**
+
+Este projeto foi desenvolvido como parte de um case técnico para um processo de estágio. O objetivo era analisar a performance de três grupos de usuários com diferentes porcentagens de cashback e determinar qual estratégia foi mais eficaz.
+
+#### **Resultados Principais**
+- O **Grupo 1** apresentou o maior ROI (17.338%), indicando que o cashback de 416% foi o mais eficaz.
+- Recomenda-se um cashback entre **416% e 577%**, dependendo do objetivo (maximizar ROI ou volume de vendas).
+
+---
+
 ## 🤖 [Estudos em IA](https://github.com/LuizAz3vedo/AI-Study)
 
 <div align="center">
