@@ -4,14 +4,6 @@ description: "Data Scientist especializado em Machine Learning, Business Intelli
 logo: /assets/me.png
 author: Luiz Antônio Azevedo
 
-# GitHub Pages Configuration
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
-
-kramdown:
-  parse_block_html: true
-
 # SEO & Social Media
 lang: pt-BR
 locale: pt_BR
