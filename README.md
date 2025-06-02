@@ -108,6 +108,31 @@ Este projeto foi desenvolvido como parte de um case técnico para um processo de
 
 ---
 
+## 🏗️ [Data Warehouse com Arquitetura Medallion - SQL Server](https://github.com/LuizAz3vedo/sql-data-warehouse)
+
+<div align="center"> <img src="assets/datawarehouse.png" alt="SQL Data Warehouse" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"> </div>
+
+Projeto completo de Data Warehouse moderno utilizando SQL Server, implementando a **Arquitetura Medallion** (Bronze, Silver, Gold) para gestão escalável de dados, processos ETL e analytics empresariais.
+
+### 🛠️ **Principais Tecnologias**
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black) ![SSIS](https://img.shields.io/badge/SSIS-CC2927?style=for-the-badge&logo=microsoft&logoColor=white)
+
+### 🏛️ **Arquitetura Medallion**
+
+- **Bronze Layer**: Dados brutos sem transformação (`Sales_Raw`, `Customers_Raw`)
+- **Silver Layer**: Dados limpos e padronizados com tratamento de valores ausentes
+- **Gold Layer**: Modelo Star Schema otimizado para BI (`FactSales`, `DimCustomer`, `DimProduct`)
+
+### 📊 **Características Principais**
+
+- **Pipelines ETL**: Automação completa de ingestão, transformação e carregamento
+- **Star Schema**: Modelagem dimensional otimizada para consultas analíticas
+- **Analytics SQL**: Queries complexas para dashboards e relatórios gerenciais
+- **Integração BI**: Conexão direta com Power BI e Tableau para visualizações
+  
+---
+
 ## 🤖 [Estudos em IA](https://github.com/LuizAz3vedo/AI-Study)
 
 <div align="center">
@@ -177,6 +202,56 @@ Este projeto é uma jornada pelo fascinante mundo das estruturas de dados e algo
 ### 📖 **Sobre o Projeto**
 Cada implementação neste projeto é uma oportunidade de aprendizado, uma aplicação prática dos conceitos aprendidos. Baseado no livro **"Entendendo Algoritmos"**, este projeto busca não apenas codificar, mas compreender a essência por trás de cada algoritmo e estrutura de dados.
 
+---
+
+## 📈 [Análise de Padrões e Anomalias no Mercado de Criptomoedas](https://github.com/LuizAz3vedo/crypto-analysis)
+
+<div align="center">
+  <img src="assets/crypto.png" alt="Análise de Criptomoedas" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este projeto explora o comportamento do Bitcoin (BTC/USD) usando técnicas avançadas de ciência de dados, séries temporais e aprendizado de máquina para identificar padrões sazonais, clusters comportamentais e anomalias no mercado de criptomoedas.
+
+### 🛠️ **Principais Bibliotecas Utilizadas**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+### 📊 **Metodologia**
+- **Modelos de Séries Temporais**: SARIMA, GARCH e Prophet para previsão de preços
+- **Clusterização**: K-Means para agrupar dias com comportamentos similares
+- **Detecção de Anomalias**: Isolation Forest para identificar eventos extremos
+- **Análise Estatística**: Testes ADF, KPSS, Ljung-Box e Jarque-Bera
+
+### 🔍 **Principais Insights**
+- Maior volatilidade nos finais de semana
+- Três clusters comportamentais distintos identificados
+- 39 anomalias detectadas, incluindo eventos como o crash de março de 2020
+
+---
+
+## 🚀 [Análise de Big Data com DuckDB - 1 Bilhão de Registros](https://github.com/LuizAz3vedo/bigdata-duckdb)
+
+<div align="center">
+  <img src="assets/bigdata.png" alt="Big Data Analysis" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+Este projeto demonstra a geração e análise de **1 bilhão de medições sintéticas** de temperatura por estação meteorológica, utilizando **DuckDB** para consultas analíticas eficientes diretamente em arquivos CSV.
+
+### 🛠️ **Principais Tecnologias**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+
+### 📊 **Características do Projeto**
+- **Geração de Dados**: Script para criar 1 bilhão de registros sintéticos de temperatura
+- **Processamento Eficiente**: Análise de grandes volumes sem carregar dados na memória
+- **Estatísticas Agregadas**: Cálculo de temperatura mínima, média e máxima por estação
+- **Performance Otimizada**: Consultas diretas em arquivos CSV usando DuckDB
+
+### 🎯 **Objetivos**
+- Simular cenário de Big Data com dados meteorológicos
+- Demonstrar capacidades do DuckDB para análise de grandes volumes
+- Implementar pipeline eficiente de processamento de dados
 ---
 
 ## 📊 [Projeto de Grafos](https://github.com/LuizAz3vedo/graphs)
