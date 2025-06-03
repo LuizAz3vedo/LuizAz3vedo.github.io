@@ -1,49 +1,69 @@
-# Configuração do Site
+# Site settings
 title: "Luiz Azevedo | Data Scientist"
 description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics"
-logo: /assets/me.png
-author: Luiz Antônio Azevedo
+baseurl: "" # deixe vazio se o repositório for username.github.io
+url: "https://LuizAz3vedo.github.io" # substitua pelo seu URL do GitHub Pages
 
+# Author info
+author:
+  name: "Luiz Antônio Azevedo"
+  email: "luizazevedo3212@hotmail.com"
+  linkedin: "https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/"
+  github: "https://github.com/LuizAz3vedo"
+
+# Theme
 theme: jekyll-theme-minimal
-  
-# SEO & Social Media
+# Para GitHub Pages, use remote_theme se necessário:
+# remote_theme: pages-themes/minimal@v0.2.0
+
+# SEO
 lang: pt-BR
 locale: pt_BR
 
-# Social Links (will appear in footer/header)
-social:
-  linkedin: https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/  
-  github: https://github.com/LuizAz3vedo  
-  email: luizazevedo3212@hotmail.com
+# Plugins (GitHub Pages suporta estes automaticamente)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Site Features
-show_downloads: true
-google_analytics: # Adicione seu ID do Google Analytics se tiver
-
-# Markdown Configuration
+# Markdown settings
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-# Exclude files from build
+# Build settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# GitHub Pages specific
+github: [metadata]
+
+# Files to exclude
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor/
+  - "*.gem"
+  - "*.gemspec"
 
-# Custom CSS (opcional - se quiser adicionar estilos personalizados)
-sass:
-  style: compressed
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
-# Navigation (se usar tema que suporta)
-navigation:
-  - title: "Projetos"
-    url: "#-projetos-em-destaque"
-  - title: "Experiência"
-    url: "#-experiência-profissional"
-  - title: "Contato"
-    url: "#-vamos-conversar"
+# Show downloads
+show_downloads: false
+
+# Analytics (opcional)
+# google_analytics: UA-XXXXXXXX-X
