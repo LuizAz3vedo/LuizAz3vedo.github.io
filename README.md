@@ -90,6 +90,10 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 
 <br>
 
+<div align="center">
+  <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/e4c26e35-13c4-4541-a8f4-bd9f6d078937" width="250px" style="border-radius: 10px;">
+</div>
+
 **🎯 Objetivo:** Análise completa de 20.000+ partidas do Lichess
 
 **🛠️ Stack:** 
@@ -110,6 +114,10 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 <summary><strong>🏗️ Data Warehouse - Arquitetura Medallion</strong></summary>
 
 <br>
+
+<div align="center">
+  <img src="assets/datawarehouse.png" width="250px" style="border-radius: 10px;">
+</div>
 
 **🎯 Objetivo:** DW moderno com arquitetura Bronze-Silver-Gold
 
@@ -132,6 +140,10 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 
 <br>
 
+<div align="center">
+  <img src="assets/bigdata.png" width="250px" style="border-radius: 10px;">
+</div>
+
 **🎯 Objetivo:** Processamento eficiente de dados massivos
 
 **🛠️ Stack:** 
@@ -151,6 +163,10 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 <summary><strong>📈 Análise Criptomoedas - Machine Learning</strong></summary>
 
 <br>
+
+<div align="center">
+  <img src="assets/crypto.png" width="250px" style="border-radius: 10px;">
+</div>
 
 **🎯 Objetivo:** Identificar padrões e anomalias no Bitcoin
 
@@ -216,6 +232,37 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LuizAz3vedo&show_icons=true&theme=tokyonight&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LuizAz3vedo&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 🎯 Áreas de Especialização
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((Luiz Azevedo))
+    Data Science
+      Análise Exploratória
+      Estatística Avançada
+      Visualização de Dados
+    Machine Learning
+      Supervised Learning
+      Unsupervised Learning
+      Deep Learning
+      NLP
+    Business Intelligence
+      ETL Pipelines
+      Data Warehousing
+      Dashboard Development
+      KPI Analysis
+    Big Data
+      Processamento Massivo
+      Arquiteturas Escaláveis
+      Performance Optimization
+```
 
 </div>
 
