@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Luiz Azevedo | Data Scientist"
+description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics"
+---
+
 # 👋 Olá, eu sou Luiz Azevedo
 ## 🚀 Data Scientist | Machine Learning Engineer | BI Developer
 
@@ -48,22 +54,9 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 
 ## 🎓 Formação & Certificações
 
-<table>
-<tr>
-<td>
-
-**🎓 Educação**
-- **Ciência da Computação**
-
-</td>
-<td>
-
-**🚀 Especialização**
-- **Bootcamp LLMs & IA Avançada** - DataH
-
-</td>
-</tr>
-</table>
+| 🎓 **Educação** | 🚀 **Especialização** |
+|:---:|:---:|
+| **Ciência da Computação** | **Bootcamp LLMs & IA Avançada** - DataH |
 
 ---
 
@@ -88,8 +81,6 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 <details>
 <summary><strong>♟️ Análise de Dados de Xadrez - 20k+ Partidas</strong></summary>
 
-<br>
-
 <div align="center">
   <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/e4c26e35-13c4-4541-a8f4-bd9f6d078937" width="250px" style="border-radius: 10px;">
 </div>
@@ -113,12 +104,6 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 <details>
 <summary><strong>🏗️ Data Warehouse - Arquitetura Medallion</strong></summary>
 
-<br>
-
-<div align="center">
-  <img src="assets/datawarehouse.png" width="250px" style="border-radius: 10px;">
-</div>
-
 **🎯 Objetivo:** DW moderno com arquitetura Bronze-Silver-Gold
 
 **🛠️ Stack:** 
@@ -138,12 +123,6 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 <details>
 <summary><strong>🚀 Big Data Analysis - 1 Bilhão de Registros</strong></summary>
 
-<br>
-
-<div align="center">
-  <img src="assets/bigdata.png" width="250px" style="border-radius: 10px;">
-</div>
-
 **🎯 Objetivo:** Processamento eficiente de dados massivos
 
 **🛠️ Stack:** 
@@ -161,12 +140,6 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 
 <details>
 <summary><strong>📈 Análise Criptomoedas - Machine Learning</strong></summary>
-
-<br>
-
-<div align="center">
-  <img src="assets/crypto.png" width="250px" style="border-radius: 10px;">
-</div>
 
 **🎯 Objetivo:** Identificar padrões e anomalias no Bitcoin
 
@@ -232,37 +205,6 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LuizAz3vedo&show_icons=true&theme=tokyonight&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LuizAz3vedo&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🎯 Áreas de Especialização
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Luiz Azevedo))
-    Data Science
-      Análise Exploratória
-      Estatística Avançada
-      Visualização de Dados
-    Machine Learning
-      Supervised Learning
-      Unsupervised Learning
-      Deep Learning
-      NLP
-    Business Intelligence
-      ETL Pipelines
-      Data Warehousing
-      Dashboard Development
-      KPI Analysis
-    Big Data
-      Processamento Massivo
-      Arquiteturas Escaláveis
-      Performance Optimization
-```
 
 </div>
 
