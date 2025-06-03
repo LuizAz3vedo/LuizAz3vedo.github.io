@@ -1,43 +1,61 @@
 title: "Luiz Azevedo | Data Scientist"
 description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics"
-logo: /assets/me.png
-author: Luiz Antônio Azevedo
-theme: jekyll-theme-minimal
+baseurl: "" # deixe vazio se o repo tem o mesmo nome do username.github.io
+url: "https://luizaz3vedo.github.io" # sua URL do GitHub Pages
+author: 
+  name: "Luiz Antônio Azevedo"
+  email: "luizazevedo3212@hotmail.com"
+  linkedin: "luiz-antônio-azevedo-34b38b23a"
+  github: "LuizAz3vedo"
 
-# SEO & Social Media
+# Tema
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# SEO
 lang: pt-BR
 locale: pt_BR
-# Social Links (will appear in footer/header)
-social:
-  linkedin: https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/  
-  github: https://github.com/LuizAz3vedo  
-  email: luizazevedo3212@hotmail.com
-# Site Features
-show_downloads: true
-google_analytics: # Adicione seu ID do Google Analytics se tiver
-# Markdown Configuration
+
+# Markdown
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-# Exclude files from build
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Sass/SCSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Plugins permitidos no GitHub Pages
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+
+# Configurações
+show_downloads: false
+google_analytics: # Adicione seu ID se tiver
+
+# Arquivos a excluir
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor/
-# Custom CSS (opcional - se quiser adicionar estilos personalizados)
-sass:
-  style: compressed
-# Navigation (se usar tema que suporta)
-navigation:
-  - title: "Projetos"
-    url: "#-projetos-em-destaque"
-  - title: "Experiência"
-    url: "#-experiência-profissional"
-  - title: "Contato"
-    url: "#-vamos-conversar"
-
----
+  - "*.gem"
+  - "*.gemspec"
+  - tools/
+  - CHANGELOG.md
+  - LICENSE
