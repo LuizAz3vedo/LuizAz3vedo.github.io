@@ -43,9 +43,9 @@
   }
 }
 
-// Estilos gerais
+// Estilos gerais - usando fontes do sistema
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
   line-height: 1.6;
   color: var(--text-color);
   animation: fadeInUp 0.8s ease-out;
@@ -94,6 +94,7 @@ header {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     position: relative;
     z-index: 2;
+    font-weight: 700;
     
     @media (max-width: 768px) {
       font-size: 2.2rem;
@@ -132,15 +133,15 @@ section {
 
 // Badges e botões com hover
 .badge, 
-img[src*="shields.io"] {
+img[src*="shields.io"],
+img[src*="img.shields.io"] {
   transition: all 0.3s ease;
   margin: 3px;
   display: inline-block;
   
   &:hover {
-    transform: scale(1.1) rotate(2deg);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    animation: pulse 0.6s ease-in-out;
+    transform: scale(1.05);
+    filter: brightness(1.1);
   }
 }
 
@@ -149,6 +150,7 @@ h1, h2, h3 {
   position: relative;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
+  font-weight: 600;
   
   &::before {
     content: '';
@@ -167,6 +169,7 @@ h2 {
   color: var(--primary-color);
   font-size: 1.8rem;
   padding-left: 10px;
+  font-weight: 700;
   
   &::after {
     content: '';
@@ -209,7 +212,6 @@ table {
     
     &:hover {
       background: linear-gradient(45deg, #f8f9fa, #e9ecef);
-      transform: scale(1.02);
     }
   }
   
@@ -309,8 +311,8 @@ img {
   transition: all 0.3s ease;
   
   &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    filter: brightness(1.05);
   }
 }
 
@@ -320,7 +322,7 @@ img[src*="github-readme-stats"] {
   border-radius: 10px;
   
   &:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
   }
 }
 
@@ -334,12 +336,12 @@ div[align="center"] {
   }
 }
 
-// Código
+// Código - usando fonte monospace do sistema
 code {
   background: linear-gradient(135deg, #f1f3f4, #e8eaed);
   padding: 4px 8px;
   border-radius: 6px;
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+  font-family: SFMono-Regular, 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Courier New', monospace;
   font-size: 0.9em;
   border: 1px solid #dadce0;
 }
@@ -356,6 +358,7 @@ pre {
     background: none;
     border: none;
     padding: 0;
+    font-family: SFMono-Regular, 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Courier New', monospace;
   }
 }
 
@@ -396,14 +399,6 @@ pre {
   }
 }
 
-// Efeitos especiais para elementos com emoji
-h1:contains("👋"), h2:contains("🚀"), h2:contains("🎯") {
-  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 // Scrollbar personalizada
 ::-webkit-scrollbar {
   width: 8px;
@@ -423,17 +418,27 @@ h1:contains("👋"), h2:contains("🚀"), h2:contains("🎯") {
   }
 }
 
-// Footer
-footer {
+// Mermaid diagrams
+.mermaid {
   text-align: center;
-  padding: 3rem 2rem;
-  background: var(--gradient);
-  color: white;
-  margin-top: 0;
-  
-  p {
-    margin-bottom: 0;
-    font-style: italic;
-    opacity: 0.9;
-  }
+  margin: 2rem 0;
+}
+
+// GitHub Pages específico - override do tema minimal
+.wrapper {
+  max-width: none !important;
+  width: auto !important;
+  margin: 20px !important;
+}
+
+section {
+  max-width: none !important;
+  width: auto !important;
+  padding: 2rem !important;
+}
+
+header {
+  width: auto !important;
+  position: relative !important;
+  padding: 3rem 2rem !important;
 }
