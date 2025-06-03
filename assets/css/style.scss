@@ -11,6 +11,7 @@
   --text-color: #333;
   --bg-color: #ffffff;
   --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 // Animações
@@ -31,32 +32,101 @@
   100% { transform: scale(1); }
 }
 
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 // Estilos gerais
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   animation: fadeInUp 0.8s ease-out;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+// Container principal
+.wrapper {
+  background: white;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
 }
 
 // Header personalizado
 header {
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 2rem;
   background: var(--gradient);
   color: white;
-  margin-bottom: 2rem;
-  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
   
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255,255,255,0.05) 10px,
+      rgba(255,255,255,0.05) 20px
+    );
+    animation: slideIn 20s linear infinite;
   }
   
-  p {
-    font-size: 1.2rem;
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 2;
+    
+    @media (max-width: 768px) {
+      font-size: 2.2rem;
+    }
+  }
+  
+  h2 {
+    font-size: 1.4rem;
     opacity: 0.9;
+    font-weight: 400;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 2rem;
+    
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .badges {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// Conteúdo principal
+section {
+  padding: 2rem;
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+  
+  &:nth-child(even) {
+    background: #f8f9fa;
   }
 }
 
@@ -64,26 +134,46 @@ header {
 .badge, 
 img[src*="shields.io"] {
   transition: all 0.3s ease;
-  margin: 2px;
+  margin: 3px;
+  display: inline-block;
   
   &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    animation: pulse 0.6s ease-in-out;
   }
 }
 
 // Estilo para seções
-h2 {
+h1, h2, h3 {
   position: relative;
-  padding-bottom: 10px;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 4px;
+    height: calc(100% + 20px);
+    background: var(--gradient);
+    border-radius: 2px;
+    opacity: 0.7;
+  }
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  padding-left: 10px;
   
   &::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
-    width: 50px;
+    width: 60px;
     height: 3px;
     background: var(--gradient);
     border-radius: 2px;
@@ -94,98 +184,94 @@ h2 {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
   overflow: hidden;
+  background: white;
   
   th {
     background: var(--gradient);
     color: white;
-    padding: 1rem;
+    padding: 1.2rem;
     text-align: center;
     font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
   
   td {
-    padding: 0.8rem;
+    padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
     
     &:hover {
-      background-color: #f8f9fa;
+      background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+      transform: scale(1.02);
     }
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
   }
 }
 
 // Details/Summary com estilo
 details {
-  margin: 1rem 0;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  background: white;
   
   &:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border-color: var(--primary-color);
+  }
+  
+  &[open] {
+    border-color: var(--secondary-color);
+    
+    summary {
+      background: var(--gradient);
+      color: white;
+    }
   }
   
   summary {
     background: #f8f9fa;
-    padding: 1rem;
+    padding: 1.5rem;
     cursor: pointer;
     font-weight: 600;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #e9ecef;
+    transition: all 0.3s ease;
+    position: relative;
     
     &:hover {
       background: #e9ecef;
     }
+    
+    &::after {
+      content: '▼';
+      position: absolute;
+      right: 1.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: transform 0.3s ease;
+    }
   }
   
-  div {
-    padding: 1rem;
-  }
-}
-
-// Seções com background
-.section-highlight {
-  background: linear-gradient(45deg, #f8f9fa, #e9ecef);
-  padding: 2rem;
-  border-radius: 10px;
-  margin: 2rem 0;
-  border-left: 4px solid var(--primary-color);
-}
-
-// Responsividade
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
+  &[open] summary::after {
+    transform: translateY(-50%) rotate(180deg);
   }
   
-  .badge {
-    margin: 1px;
-    transform: scale(0.9);
+  > div {
+    padding: 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   }
-  
-  table {
-    font-size: 0.9rem;
-  }
-}
-
-// Estilo para código
-code {
-  background: #f1f3f4;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: 'Courier New', monospace;
-}
-
-pre {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
-  border-left: 4px solid var(--secondary-color);
-  overflow-x: auto;
 }
 
 // Links com estilo
@@ -193,10 +279,25 @@ a {
   color: var(--accent-color);
   text-decoration: none;
   transition: all 0.3s ease;
+  position: relative;
   
   &:hover {
     color: var(--secondary-color);
-    text-decoration: underline;
+    
+    &::after {
+      width: 100%;
+    }
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gradient);
+    transition: width 0.3s ease;
   }
 }
 
@@ -208,16 +309,131 @@ img {
   transition: all 0.3s ease;
   
   &:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  }
+}
+
+// GitHub Stats específico
+img[src*="github-readme-stats"] {
+  margin: 0.5rem;
+  border-radius: 10px;
+  
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+// Seções centralizadas
+div[align="center"] {
+  text-align: center;
+  padding: 1rem 0;
+  
+  img {
+    margin: 0.3rem;
+  }
+}
+
+// Código
+code {
+  background: linear-gradient(135deg, #f1f3f4, #e8eaed);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  border: 1px solid #dadce0;
+}
+
+pre {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--secondary-color);
+  overflow-x: auto;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+// Responsividade
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 10px;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  header {
+    padding: 2rem 1rem;
+  }
+  
+  .badge, img[src*="shields.io"] {
+    margin: 2px;
+    transform: scale(0.95);
+  }
+  
+  table {
+    font-size: 0.85rem;
+    
+    th, td {
+      padding: 0.8rem 0.5rem;
+    }
+  }
+  
+  details summary {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  details > div {
+    padding: 1rem;
+  }
+}
+
+// Efeitos especiais para elementos com emoji
+h1:contains("👋"), h2:contains("🚀"), h2:contains("🎯") {
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// Scrollbar personalizada
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gradient);
+  border-radius: 10px;
+  
+  &:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
   }
 }
 
 // Footer
 footer {
   text-align: center;
-  padding: 2rem 0;
-  margin-top: 3rem;
-  border-top: 1px solid #eee;
-  color: #666;
+  padding: 3rem 2rem;
+  background: var(--gradient);
+  color: white;
+  margin-top: 0;
+  
+  p {
+    margin-bottom: 0;
+    font-style: italic;
+    opacity: 0.9;
+  }
 }
