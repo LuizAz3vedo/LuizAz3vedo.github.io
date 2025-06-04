@@ -4,7 +4,7 @@
 <div class="profile-header">
   <p align="center">
     <h1 align="center">Luiz Antônio Azevedo</h1>
-    <p align="center"><strong>Data Scientist & Machine Learning Engineer</strong></p>
+    <p align="center"><strong>Data Scientist</strong></p>
     <p align="center">
       <a href="#-stack-tecnológico">🛠 Stack</a> •
       <a href="#-formação--qualificações">🎓 Formação</a> •
