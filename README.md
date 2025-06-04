@@ -239,7 +239,7 @@
   - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/estrutura.png" alt="Data Structures" width="300" />
+    <img src="assets/estrtutura.png" alt="Data Structures" width="300" />
   </div>
 
 ---
