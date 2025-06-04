@@ -196,7 +196,6 @@ exclude:
   - tests/
   - CHANGELOG.md
   - LICENSE
-  - README.md
   - package.json
   - package-lock.json
   - gulpfile.js
