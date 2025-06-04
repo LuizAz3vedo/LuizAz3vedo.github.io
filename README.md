@@ -85,7 +85,8 @@
 - Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
 - Gerenciei a arquitetura de dados garantindo escalabilidade e alta disponibilidade.  
 - Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
-- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.  
+- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.
+  
 ---
 
 ## 🔬 Pesquisa & Colaborações
@@ -125,7 +126,7 @@
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" alt="Power BI" />  
 - **Imagens:**  
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/7aa0b3d9-cad5-4090-99de-77ff7c970951" alt="BI + K-means" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="https://github.com/user-attachments/assets/7aa0b3d9-cad5-4090-99de-77ff7c970951" alt="BI + K-means" style="width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
   </div>
 
 ---
@@ -143,7 +144,7 @@
   - **Gold Layer:** Star Schema otimizado para BI  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/Medalion.png" alt="Data Warehouse" width="300" />
+    <img src="assets/Medalion.png" alt="Data Warehouse" width="500" />
   </div>
 
 ---
@@ -158,7 +159,7 @@
   - **Insights:** Balanceamento entre ROI e volume de vendas
 - **Imagens:**  
   <div align="center">
-    <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
   </div>
 
 ---
@@ -175,7 +176,7 @@
   - Geração e processamento eficiente de dados sintéticos  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/1b.png" alt="Big Data" width="300" />
+    <img src="assets/1b.png" alt="Big Data" width="500" />
   </div>
 
 ---
@@ -192,7 +193,7 @@
   - K-means Clustering, Naive Bayes, Redes Neurais  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/IA.png" alt="AI Study" width="300" />
+    <img src="assets/IA.png" alt="AI Study" width="500" />
   </div>
 
 ---
@@ -206,7 +207,7 @@
   - **Avaliação:** F1-score, AUC-ROC, Matriz de Confusão  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/nple.png" alt="NLP Analysis" width="300" />
+    <img src="assets/nple.png" alt="NLP Analysis" width="500" />
   </div>
 
 ---
@@ -224,7 +225,7 @@
   - 39 anomalias detectadas, incluindo eventos extremos de mercado  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/btc.png" alt="Crypto Analysis" width="300" />
+    <img src="assets/btc.png" alt="Crypto Analysis" width="500" />
   </div>
 
 ---
@@ -239,7 +240,7 @@
   - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/estrtutura.png" alt="Data Structures" width="300" />
+    <img src="assets/estrtutura.png" alt="Data Structures" width="500" />
   </div>
 
 ---
@@ -253,7 +254,7 @@
   - **Dijkstra** – Algoritmo de caminho mínimo  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/graph.png" alt="Graph Analysis" width="300" />
+    <img src="assets/graph.png" alt="Graph Analysis" width="500" />
   </div>
 
 ---
@@ -264,9 +265,9 @@
 |--------------------------|--------------------------------------------------------|-----------------|
 | **🖥️ Linguagens**        | Python, SQL, R                                         | Avançado        |
 | **🤖 Machine Learning**   | Scikit-learn, TensorFlow, PyTorch                      | Avançado        |
-| **📊 Data Analysis**     | Pandas, NumPy, Matplotlib, Seaborn                      | Especialista    |
-| **💼 BI & Reporting**    | Power BI, Tableau, SSIS                                | Avançado        |
-| **🏗️ Data Engineering**  | SQL Server, PostgreSQL, DuckDB                         | Intermediário   |
+| **📊 Data Analysis**     | Pandas, NumPy, Matplotlib, Seaborn                      | Avançado    |
+| **💼 BI & Reporting**    | Power BI, Tableau                                     | Avançado        |
+| **🏗️ Data Engineering**  | SQL Server, PostgreSQL, DuckDB                         | Avançado   |
 | **☁️ Cloud & Big Data**  | AWS (S3, EMR, Lambda), Docker, Spark                    | Intermediário   |
 
 ---
@@ -277,7 +278,7 @@
   <summary>Clique para expandir o Mapa de Data Science</summary>
 
   <div align="center">
-      <img src="assets/specialties.png" alt="Graph Analysis" width="300" />
+      <img src="assets/specialties.png" alt="Graph Analysis" width="500" />
   </div>
 </details>
 
@@ -298,4 +299,5 @@ Otimização contínua de código e algoritmos para máxima eficiência computac
 <p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> </p> 
 - 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 
 - 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 
-- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> </p> <p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨
+- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> </p> 
+<p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨
