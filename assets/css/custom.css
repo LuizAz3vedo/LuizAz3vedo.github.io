@@ -1,197 +1,162 @@
-/* ===========================
-   Tipografia e cores gerais
-   =========================== */
-
+/* Estilos Gerais */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #fafafa;
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    line-height: 1.7;
+    color: #333;
+    background-color: #f8f9fa; /* Um cinza bem claro para o fundo */
+    margin: 0;
+    padding: 20px;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  color: #222;
-  margin: 0 0 1rem 0;
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Cor mais escura e profissional para títulos */
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-
-/* ===========================
-   Hero Section
-   =========================== */
-.hero {
-  background: linear-gradient(135deg, #1a73e8, #4285f4);
-  color: #fff;
-  text-align: center;
-  padding: 3rem 1rem;
-}
-.hero-photo {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  margin-bottom: 1rem;
+p {
+    margin-bottom: 1em;
 }
 
-/* ===========================
-   Navegação Interna
-   =========================== */
-div[align="center"] a {
-  color: #1a73e8;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-div[align="center"] a:hover {
-  text-decoration: underline;
+a {
+    color: #007bff; /* Azul padrão para links */
+    text-decoration: none;
 }
 
-/* ===========================
-   Seções
-   =========================== */
-section, #stack-tecnológico, #formação--qualificações,
-#experiência-profissional, #pesquisa--colaborações,
-#portfólio-de-projetos, #competências-técnicas {
-  padding: 2rem 1rem;
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 2rem;
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Azul mais escuro no hover */
 }
 
-/* ===========================
-   Blocos de Projeto (Cards)
-   =========================== */
-.project-card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-}
-.project-card h3 {
-  margin-top: 0;
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(44, 62, 80, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-/* ===========================
-   Imagens de Projeto
-   =========================== */
-.project-image {
-  display: block;
-  width: 100%;
-  max-width: 450px;
-  margin: 0.75rem auto;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-.project-image:hover {
-  transform: scale(1.02);
+/* Melhorando a seção de cabeçalho */
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Fundo escuro para o cabeçalho */
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
-/* ===========================
-   Badges (Tecnologias)
-   =========================== */
-.project-card img {
-  margin: 0.25rem;
-  vertical-align: middle;
+.profile-header h1 {
+    color: #fff;
+    margin-bottom: 0.2em;
 }
 
-/* ===========================
-   “Badge” de data em projeto
-   =========================== */
-.project-badge {
-  background-color: #1a73e8;
-  color: #fff;
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  vertical-align: middle;
-  margin-left: 0.5rem;
+.profile-header p {
+    color: #adb5bd; /* Cor mais clara para o subtítulo */
+    font-size: 1.1em;
 }
 
-/* ===========================
-   Tabelas (Competências Técnicas)
-   =========================== */
+.profile-header a {
+    color: #17a2b8; /* Cor de destaque para links no cabeçalho */
+    margin: 0 10px;
+}
+.profile-header a:hover {
+    color: #138496;
+}
+
+
+/* Estilizando as seções */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Imagens dos Projetos */
+.project-images img {
+    width: 100%; /* Responsivo */
+    max-width: 450px; /* Aumenta o tamanho máximo */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 5px; /* Espaçamento entre imagens se estiverem na mesma linha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-images img:hover {
+    transform: scale(1.03); /* Efeito de zoom sutil no hover */
+}
+
+/* Para a galeria de imagens do projeto de Xadrez (3 imagens lado a lado) */
+.chess-gallery img {
+    width: calc(33.333% - 20px); /* Para 3 imagens com margem */
+    min-width: 180px; /* Para não ficarem muito pequenas em telas menores */
+    max-width: 250px; /* Ajuste conforme necessário */
+    margin: 10px;
+}
+
+/* Badges (Shields.io) */
+.stack-images img, .project-tech img {
+    margin: 5px;
+    transition: opacity 0.2s ease-in-out;
+}
+.stack-images img:hover, .project-tech img:hover {
+    opacity: 0.8;
+}
+
+/* Tabelas (Competências Técnicas) */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-table th,
-table td {
-  border: 1px solid #ddd;
-  padding: 0.75rem;
-  text-align: left;
-}
-table th {
-  background-color: #f2f2f2;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* ===========================
-   Estilização de Blocos de Citação
-   =========================== */
-blockquote {
-  border-left: 4px solid #1a73e8;
-  padding-left: 1rem;
-  color: #555;
-  font-style: italic;
-  background-color: #f9f9f9;
-  margin: 1rem 0;
+th, td {
+    border: 1px solid #dfe2e5;
+    padding: 12px 15px;
+    text-align: left;
 }
 
-/* ===========================
-   Rodapé de Contato
-   =========================== */
-#contato {
-  text-align: center;
-  background: #1a73e8;
-  color: #fff;
-  padding: 2rem 1rem;
-}
-#contato a {
-  color: #fff;
-  font-weight: 500;
-  margin: 0 0.5rem;
-  text-decoration: none;
-}
-#contato a:hover {
-  color: #e0e0e0;
-  text-decoration: underline;
+th {
+    background-color: #f1f3f5;
+    font-weight: bold;
 }
 
-/* ===========================
-   Scroll Suave e Offset para Anchors
-   =========================== */
-html {
-  scroll-behavior: smooth;
-}
-h2::before, h3::before {
-  content: "";
-  display: block;
-  height: 80px; /* ajuste se tiver header fixo */
-  margin-top: -80px;
-  visibility: hidden;
+tr:nth-child(even) {
+    background-color: #f8f9fa;
 }
 
-/* ===========================
-   Responsividade
-   =========================== */
+/* Detalhes (Mapa de Data Science) */
+details {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #495057;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
-  .project-card {
-    padding: 1rem;
-  }
-  .project-image {
-    max-width: 100%;
-  }
+    .chess-gallery img {
+        width: calc(50% - 20px); /* 2 imagens por linha em telas médias */
+    }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.6em; }
+}
+
+@media (max-width: 480px) {
+    .chess-gallery img {
+        width: calc(100% - 20px); /* 1 imagem por linha em telas pequenas */
+    }
+     body { padding: 10px; }
+     section { padding: 15px; }
 }
