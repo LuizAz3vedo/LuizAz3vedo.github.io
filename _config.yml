@@ -21,7 +21,7 @@ lang: pt-BR
 locale: pt_BR
 
 # Theme and Appearance
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 logo: /assets/me.png  # Adicione sua foto aqui
 show_downloads: false
 
