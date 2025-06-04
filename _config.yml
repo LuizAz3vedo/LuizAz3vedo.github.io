@@ -1,34 +1,74 @@
-title: "Luiz Azevedo | Data Scientist"
-description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics"
+# Site Settings
+title: "Luiz Azevedo | Data Scientist & ML Engineer"
+description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics. Transformando dados em insights estratégicos para impulsionar decisões de negócio."
 baseurl: "" 
 url: "https://luizaz3vedo.github.io"
 
+# Author Information
 author: 
   name: "Luiz Antônio Azevedo"
+  bio: "Data Scientist & Machine Learning Engineer"
+  location: "Caruaru, Pernambuco, Brasil"
   email: "luizazevedo3212@hotmail.com"
   linkedin: "luiz-antônio-azevedo-34b38b23a"
   github: "LuizAz3vedo"
+  cv_url: "https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing"
 
-# Tema
-theme: jekyll-theme-minimal
-
-# SEO
+# Site Configuration
+timezone: America/Recife
+encoding: "utf-8"
 lang: pt-BR
 locale: pt_BR
 
-# Markdown
+# Theme and Appearance
+theme: jekyll-theme-minimal
+logo: /assets/images/profile.jpg  # Adicione sua foto aqui
+show_downloads: false
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Projetos"
+    url: "#projetos"
+  - title: "Sobre"
+    url: "#sobre"
+  - title: "Contato"
+    url: "#contato"
+
+# Social Media
+social:
+  links:
+    - https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/
+    - https://github.com/LuizAz3vedo
+    - mailto:luizazevedo3212@hotmail.com
+
+# SEO and Meta Tags
+google_analytics: # Adicione seu código do Google Analytics aqui
+google_site_verification: # Adicione sua verificação do Google Search Console
+
+# Markdown Processing
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
 
-# Sass/SCSS
+# Sass/SCSS Configuration
 sass:
   style: compressed
   sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
 
-# Plugins permitidos no GitHub Pages
+# Plugin Configuration
 plugins:
   - jekyll-default-layout
   - jekyll-feed
@@ -38,11 +78,113 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-github-metadata
 
-# Configurações
-show_downloads: false
+# Feed Configuration
+feed:
+  posts_limit: 10
+  excerpt_only: true
 
-# Arquivos a excluir
+# SEO Tag Configuration
+seo:
+  type: Person
+  name: "Luiz Antônio Azevedo"
+  tagline: "Data Scientist & Machine Learning Engineer"
+
+# GitHub Metadata
+repository: LuizAz3vedo/LuizAz3vedo.github.io
+
+# Custom Variables
+skills:
+  - name: "Python"
+    level: 90
+    color: "#3776AB"
+  - name: "SQL"
+    level: 85
+    color: "#4479A1"
+  - name: "Machine Learning"
+    level: 88
+    color: "#FF6F00"
+  - name: "Power BI"
+    level: 85
+    color: "#F2C811"
+  - name: "Data Analysis"
+    level: 92
+    color: "#E44D26"
+  - name: "Statistics"
+    level: 80
+    color: "#2F4F4F"
+
+technologies:
+  languages:
+    - Python
+    - SQL
+    - R
+    - JavaScript
+  frameworks:
+    - TensorFlow
+    - PyTorch
+    - Scikit-learn
+    - Pandas
+    - NumPy
+  tools:
+    - Power BI
+    - Tableau
+    - Git
+    - Docker
+    - AWS
+  databases:
+    - PostgreSQL
+    - MySQL
+    - MongoDB
+    - DuckDB
+
+projects_featured:
+  - title: "Análise de Dados de Xadrez"
+    description: "Análise de 20.000+ partidas do Lichess com dashboards interativos"
+    url: "https://github.com/LuizAz3vedo/ChessProject"
+    tech: ["Python", "Pandas", "Dash"]
+  - title: "Data Warehouse Medallion"
+    description: "Arquitetura moderna Bronze-Silver-Gold com SQL Server"
+    url: "https://github.com/LuizAz3vedo/sql-data-warehouse"
+    tech: ["SQL Server", "SSIS", "Power BI"]
+  - title: "Big Data com DuckDB"
+    description: "Processamento de 1 bilhão de registros"
+    url: "https://github.com/LuizAz3vedo/bigdata-duckdb"
+    tech: ["DuckDB", "Python", "Big Data"]
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Build Settings
+future: false
+unpublished: false
+safe: true
+incremental: false
+profile: false
+
+# File Processing
+include:
+  - _pages
+  - _projects
+  - .htaccess
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -51,5 +193,34 @@ exclude:
   - "*.gem"
   - "*.gemspec"
   - tools/
+  - tests/
   - CHANGELOG.md
   - LICENSE
+  - README.md
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - yarn.lock
+
+# Optimization
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Development
+livereload: true
+host: 0.0.0.0
+port: 4000
+
+# Custom CSS and JS
+custom_css:
+  - /assets/css/custom.css
+  - /assets/css/animations.css
+
+custom_js:
+  - /assets/js/custom.js
+  - /assets/js/animations.js
