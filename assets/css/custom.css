@@ -1,0 +1,250 @@
+/* /assets/css/custom.css */
+
+/* Importar Fontes do Google (Opcional, mas recomendado) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Variáveis de Cores (Personalize conforme seu gosto) */
+:root {
+    --primary-color: #007bff;    /* Azul vibrante, por exemplo */
+    --secondary-color: #6c757d; /* Cinza para texto secundário */
+    --text-color: #333333;       /* Cor principal do texto */
+    --text-color-light: #555555; /* Cor de texto um pouco mais clara */
+    --background-color: #f8f9fa; /* Fundo levemente cinza */
+    --light-border: #dee2e6;     /* Borda clara */
+    --section-separator: #eeeeee; /* Cor do separador de seção */
+    --image-shadow-color: rgba(0, 0, 0, 0.1);
+    --image-hover-shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos Globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.7; /* Aumenta um pouco o espaçamento entre linhas para melhor leitura */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue; /* Um pouco mais escuro no hover */
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: 1.5em; /* Mais espaço acima do H2 */
+    margin-bottom: 1em; /* Mais espaço abaixo do H2 */
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px; /* Espaço para o underline decorativo */
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px; /* Espessura do underline */
+    width: 70px; /* Largura do underline */
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 1.6em;
+    color: var(--text-color-light);
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+/* Estilo para a foto de perfil */
+.profile-picture {
+    width: 180px; /* Ajuste o tamanho conforme desejar */
+    height: 180px;
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem preencha o círculo sem distorção */
+    border: 5px solid var(--primary-color); /* Borda em volta da foto */
+    box-shadow: 0 5px 20px var(--image-shadow-color);
+    margin: 30px auto; /* Centraliza e adiciona espaço */
+    display: block;
+}
+
+/* Estilo geral para as seções */
+section {
+    padding: 50px 20px; /* Espaço interno (vertical, horizontal) */
+    border-bottom: 1px solid var(--section-separator);
+    max-width: 900px; /* Limita a largura do conteúdo principal */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+/* Separadores --- */
+hr {
+    border: 0;
+    height: 1px;
+    background: var(--light-border);
+    margin: 40px 0; /* Aumenta o espaçamento do HR */
+}
+
+/* Estilo para as imagens de badges (tecnologias) */
+.shields img {
+    margin: 8px; /* Espaço entre os badges */
+    vertical-align: middle;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shields img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Estilo para as imagens dos projetos */
+.portfolio-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto; /* Centraliza e adiciona espaço inferior */
+    border-radius: 10px; /* Cantos mais arredondados */
+    box-shadow: 0 6px 12px var(--image-shadow-color);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.portfolio-images img:hover {
+    transform: scale(1.03); /* Leve aumento ao passar o mouse */
+    box-shadow: 0 8px 16px var(--image-hover-shadow-color);
+}
+
+/* Container para centralizar e espaçar imagens dos projetos */
+.project-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 25px; /* Espaço entre as imagens/cards de imagem */
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+/* Se você tiver um único item dentro do container e quiser que ele se expanda mais */
+.project-images-container .portfolio-images {
+    flex-basis: calc(50% - 25px); /* Para duas colunas em telas maiores, ajuste conforme necessário */
+    min-width: 280px; /* Largura mínima para cada item de imagem */
+}
+
+/* Específico para uma imagem única grande em um projeto */
+.project-images-container .portfolio-images.single-large-image img {
+    max-width: 600px; /* Um tamanho maior para imagens únicas destacadas */
+}
+
+/* Tabela de Competências */
+#competências-técnicas table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px var(--image-shadow-color);
+}
+
+#competências-técnicas th,
+#competências-técnicas td {
+    border: 1px solid var(--light-border);
+    padding: 12px 15px; /* Aumenta o padding */
+    text-align: left;
+}
+
+#competências-técnicas th {
+    background-color: #e9ecef; /* Cor de fundo para o cabeçalho da tabela */
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+#competências-técnicas tr:nth-child(even) {
+    background-color: #f8f9fa; /* Linhas alternadas com cor de fundo */
+}
+
+/* Seção de Contato */
+#contato p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+#contato a {
+    font-weight: bold;
+}
+
+/* Detalhes (Caixa Expansível) */
+details {
+    background-color: #f9f9f9;
+    border: 1px solid var(--light-border);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+details:hover {
+    background-color: #f1f1f1;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.1em;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
+
+details div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    section {
+        padding: 30px 15px;
+    }
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+    .project-images-container .portfolio-images {
+        flex-basis: 100%; /* Uma coluna em telas menores */
+    }
+}
