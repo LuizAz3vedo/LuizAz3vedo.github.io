@@ -18,8 +18,6 @@
 </div>
 
 ---
-
-<section id="-stack-tecnolgico">
   
 ## 🛠 Stack Tecnológico
 
@@ -37,7 +35,6 @@
     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   </p>
-</section>
 
 ---
 
@@ -278,13 +275,12 @@
 
 ## 🗺 Mapa de Data Science
 
-<details>
-  <summary>Clique para expandir o Mapa de Data Science</summary>
+<summary>Mapa de Data Science</summary>
 
   <div align="center" class="project-images">
       <img src="assets/specialties.png" alt="Graph Analysis" width="500" />
   </div>
-</details>
+
 
 🌟 Diferenciais Competitivos
 Visão de Negócio
@@ -303,5 +299,5 @@ Otimização contínua de código e algoritmos para máxima eficiência computac
 <p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> </p> 
 - 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 
 - 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 
-- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> </p> 
+- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> 
 <p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨
