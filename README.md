@@ -1,7 +1,7 @@
 <!-- ========================= -->
 <!-- 👨‍💻 Luiz Antônio Azevedo -->
 <!-- ========================= -->
-
+<div class="profile-header">
 <p align="center">
   <h1 align="center">Luiz Antônio Azevedo</h1>
   <p align="center"><strong>Data Scientist & Machine Learning Engineer</strong></p>
@@ -15,9 +15,11 @@
     <a href="#-contato">📞 Contato</a>
   </p>
 </p>
+</div>
 
 ---
 
+<section id="-stack-tecnolgico">
 ## 🛠 Stack Tecnológico
 
 <p align="center">
@@ -34,6 +36,7 @@
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
+</section>
 
 ---
 
