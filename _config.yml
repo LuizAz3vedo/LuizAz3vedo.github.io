@@ -1,7 +1,8 @@
 title: "Luiz Azevedo | Data Scientist"
 description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics"
-baseurl: "" # deixe vazio se o repo tem o mesmo nome do username.github.io
-url: "https://luizaz3vedo.github.io" # sua URL do GitHub Pages
+baseurl: "" 
+url: "https://luizaz3vedo.github.io"
+
 author: 
   name: "Luiz Antônio Azevedo"
   email: "luizazevedo3212@hotmail.com"
@@ -10,7 +11,6 @@ author:
 
 # Tema
 theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
 
 # SEO
 lang: pt-BR
@@ -22,9 +22,6 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
 
 # Sass/SCSS
 sass:
@@ -36,9 +33,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
-  - jekyll-paginate
   - jekyll-readme-index
-  - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -46,7 +41,6 @@ plugins:
 
 # Configurações
 show_downloads: false
-google_analytics: # Adicione seu ID se tiver
 
 # Arquivos a excluir
 exclude:
