@@ -9,9 +9,9 @@ description: "Data Scientist especializado em Machine Learning, Business Intelli
 
 <div align="center">
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luizazevedo3212@hotmail.com)
-  [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luizazevedo3212@hotmail.com)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing)
   
 </div>
 
@@ -150,7 +150,7 @@ Sou um **Data Scientist** apaixonado por transformar dados em insights valiosos.
 
 **📊 Resultados:**
 - Modelos SARIMA, GARCH e Prophet
-- 39 anomalias detectadas
+- 39 anomalias detectadas  
 - 3 clusters comportamentais identificados
 
 **🔗 [Ver Projeto](https://github.com/LuizAz3vedo/crypto-analysis)**
