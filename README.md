@@ -3,7 +3,6 @@
 <!-- ========================= -->
 
 <p align="center">
-  <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/your_photo.png" alt="Foto de Perfil" width="120" style="border-radius: 50%;" />
   <h1 align="center">Luiz Antônio Azevedo</h1>
   <p align="center"><strong>Data Scientist & Machine Learning Engineer</strong></p>
   <p align="center">
@@ -13,7 +12,6 @@
     <a href="#-pesquisa--colaborações">🔬 Pesquisa</a> •
     <a href="#-portfólio-de-projetos">🚀 Portfólio</a> •
     <a href="#-competências-técnicas">🎯 Competências</a> •
-    <a href="#-metodologia-de-trabalho">🗺️ Mapa Mental</a> •
     <a href="#-contato">📞 Contato</a>
   </p>
 </p>
@@ -55,28 +53,18 @@
 
 ## 💼 Experiência Profissional
 
-### 🏢 Data Scientist | VisianSystems (Londres)  
-<sub>*junho 2023 – Atualmente*</sub>  
-> **Projeto de Crypto & ETL End-to-End**  
-- Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
-- Gerenciei a arquitetura de dados (AWS S3, AWS RDS, Docker) garantindo escalabilidade e alta disponibilidade.  
-- Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
-- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.  
-- Colaborei com equipes de DevOps para automação de pipelines e deploy contínuo em ambientes de produção.  
-
 ---
 
 ### 🏥 Estagiário em Análise de Dados | Unimed  
-<sub>*fevereiro 2022 – maio 2023*</sub>  
+<sub>*Setembro 2023 – Janeiro 2024*</sub>  
 > **Transformando dados hospitalares em insights estratégicos**  
 - Realizei análises avançadas de dados clínicos para otimizar processos internos.  
-- Desenvolvi dashboards dinâmicos em Power BI para C-level, facilitando tomadas de decisão.  
-- Defini e implementei KPIs hospitalares (tempo de espera, taxa de ocupação, custo por procedimento).  
-
+- Desenvolvi dashboards dinâmicos, facilitando tomadas de decisão.
+  
 ---
 
-### 💼 Estagiário em Business Intelligence | Adasi  
-<sub>*julho 2021 – janeiro 2022*</sub>  
+### 💼 Estagiário em Business Intelligence | Adasi Software
+<sub>*Fevereiro 2024 – Agosto 2024*</sub>  
 > **Business Intelligence & Relatórios Gerenciais**  
 - Criei relatórios detalhados e análises de indicadores de performance para clientes.  
 - Desenvolvi dashboards interativos em Power BI, reduzindo em 40% o tempo de elaboração de relatórios.  
@@ -85,24 +73,31 @@
 ---
 
 ### 👨‍🏫 Tutor de Programação | CESAR Institute  
-<sub>*março 2020 – junho 2021*</sub>  
+<sub>*Outubro 2024 – Março 2025*</sub>  
 > **Mentoria em Lógica de Programação para Jovens Talentos**  
-- Lecionei fundamentos de lógica de programação (Python, pseudocódigo) para alunos do Ensino Médio.  
+- Lecionei fundamentos de lógica de programação (Python, Javascript, Python para Dados) para alunos do Ensino Médio.  
 - Elaborei material didático e exercícios práticos para fixação de conceitos.  
-- Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.  
-
+- Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.
+  
+### 🏢 Data Scientist | VisianSystems (Londres)  
+<sub>*Abril 2025 – Atualmente*</sub>  
+> **Projeto de Crypto & ETL End-to-End**  
+- Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
+- Gerenciei a arquitetura de dados garantindo escalabilidade e alta disponibilidade.  
+- Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
+- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.  
 ---
 
 ## 🔬 Pesquisa & Colaborações
 
 ### dotLAB Brazil  
 - **Membro do Grupo de Pesquisa**  
-- Foco em aplicar técnicas de Machine Learning e Deep Learning para aprimorar a tomada de decisões e otimizar processos, redes e serviços em diversas áreas (saúde, finanças, telecom).  
+- Foco em aplicar técnicas de Machine Learning e Deep Learning para aprimorar a tomada de decisões e otimizar processos, redes e serviços.
 - Condução de estudos colaborativos, workshops internos e experimentos com redes neurais e modelos generativos.
 
 ---
 
-## 🚀 Portfólio de Projetos
+## 🗂️   Portfólio de Projetos
 
 ### ♟️ Análise de Dados de Xadrez
 - **Link:** [Repositório](https://github.com/LuizAz3vedo/ChessProject)  
@@ -123,14 +118,14 @@
 
 ### 📊 Painel de BI + K-means
 - **Link:** [Repositório](https://github.com/LuizAz3vedo/BI_kmeans)  
-- **Objetivo:** Segmentação inteligente de clientes usando K-means, com dashboard integrado em Power BI.  
+- **Objetivo:** Utilizar o algoritmo **K-means** para construir um modelo de Machine Learning para segmentação de clientes e, em seguida, integrar esses resultados a um dashboard no **Power BI**
 - **Tecnologias:**  
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />  
   <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />  
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" alt="Power BI" />  
 - **Imagens:**  
   <div align="center">
-    <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/bi_kmeans_example.png" alt="BI + K-means" width="300" />
+    <img src="https://github.com/user-attachments/assets/7aa0b3d9-cad5-4090-99de-77ff7c970951" alt="BI + K-means" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
   </div>
 
 ---
@@ -161,6 +156,10 @@
   - **ROI do Grupo 1:** 17.338% (melhor performance)  
   - **Recomendação estratégica:** Cashback entre 416% e 577%  
   - **Insights:** Balanceamento entre ROI e volume de vendas
+- **Imagens:**  
+  <div align="center">
+    <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  </div>
 
 ---
 
@@ -189,7 +188,7 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />  
   <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />  
 - **Modelos Implementados:**  
-  - Árvores de Decisão, Regressão Linear/Logística, Regressão Polinomial  
+  - Árvores de Decisão, Regressão Linear/Logística, Regressão Polinomial e Múltipla 
   - K-means Clustering, Naive Bayes, Redes Neurais  
 - **Imagens:**  
   <div align="center">
@@ -233,7 +232,8 @@
 ### 🧠 Algoritmos e Estruturas de Dados
 - **Link:** [Repositório](https://github.com/LuizAz3vedo/Estrutura-de-Dados)  
 - **Objetivo:** Implementações didáticas de algoritmos de busca, grafos, programação dinâmica e algoritmos gulosos.  
-- **Implementações Principais:**  
+- **Implementações Principais:**
+  - **Estruturas de Dados**: Implementações de listas, pilhas, filas, árvores
   - **Busca:** Linear, Binária  
   - **Grafos:** Dijkstra, BFS, DFS  
   - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
@@ -276,34 +276,6 @@
 <details>
   <summary>Clique para expandir o Mapa de Data Science</summary>
 
-```mermaid
-graph TD
-  A[Data Science]
-  A --> B[ETL & Ingestão]
-  B --> C[Coleta de Dados]
-  B --> D[Tratamento & Limpeza]
-  B --> E[Armazenamento & Arquitetura]
-
-  A --> F[Engenharia de Features]
-  F --> G[Seleção de Atributos]
-  F --> H[Criação de Features]
-
-  A --> I[Modelagem & Avaliação]
-  I --> J[Treinamento de Modelos]
-  I --> K[Avaliação de Modelos]
-  I --> L[Otimização de Hiperparâmetros]
-
-  A --> M[Deploy & Operações]
-  M --> N[Deploy de Modelos]
-  M --> O[Monitoramento]
-  M --> P[Ciclo de Feedback]
-
-  A --> Q[Especialidades Complementares]
-  Q --> R[Visualização de Dados]
-  Q --> S[Business Intelligence]
-  Q --> T[Infraestrutura & Cloud]
-  Q --> U[Análise Exploratória]
-```
 </details>
 
 🌟 Diferenciais Competitivos
@@ -320,4 +292,7 @@ Foco em Performance
 Otimização contínua de código e algoritmos para máxima eficiência computacional.
 
 📞 Contato
-<p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> </p> <p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨ </p> ```
+<p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> </p> 
+- 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 
+- 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 
+- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> </p> <p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨ 
