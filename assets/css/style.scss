@@ -1,6 +1,3 @@
----
----
-
 @import "{{ site.theme }}";
 
 // Variáveis de cores
@@ -43,7 +40,7 @@
   }
 }
 
-// Estilos gerais - usando fontes do sistema
+// Estilos gerais - REMOVIDO Google Fonts, usando fontes do sistema
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
   line-height: 1.6;
@@ -60,6 +57,8 @@ body {
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
+  max-width: none !important;
+  width: auto !important;
 }
 
 // Header personalizado
@@ -70,6 +69,7 @@ header {
   color: white;
   position: relative;
   overflow: hidden;
+  width: auto !important;
   
   &::before {
     content: '';
@@ -122,9 +122,11 @@ header {
 
 // Conteúdo principal
 section {
-  padding: 2rem;
+  padding: 2rem !important;
   animation: fadeInUp 0.6s ease-out;
   animation-fill-mode: both;
+  max-width: none !important;
+  width: auto !important;
   
   &:nth-child(even) {
     background: #f8f9fa;
@@ -369,11 +371,11 @@ pre {
   }
   
   section {
-    padding: 1rem;
+    padding: 1rem !important;
   }
   
   header {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem !important;
   }
   
   .badge, img[src*="shields.io"] {
@@ -416,29 +418,4 @@ pre {
   &:hover {
     background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
   }
-}
-
-// Mermaid diagrams
-.mermaid {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-// GitHub Pages específico - override do tema minimal
-.wrapper {
-  max-width: none !important;
-  width: auto !important;
-  margin: 20px !important;
-}
-
-section {
-  max-width: none !important;
-  width: auto !important;
-  padding: 2rem !important;
-}
-
-header {
-  width: auto !important;
-  position: relative !important;
-  padding: 3rem 2rem !important;
 }
