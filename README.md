@@ -321,8 +321,6 @@ Estou sempre em busca de desafios que permitam aplicar ciência de dados e machi
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=LuizAz3vedo&color=blueviolet&style=for-the-badge)
-
-### ✨ *"Dados são o novo petróleo, mas insights são o combustível da inovação"* ✨
+### ✨ *"Machine Learning, human thinking."* ✨
 
 </div>
