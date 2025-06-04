@@ -2,19 +2,19 @@
 <!-- 👨‍💻 Luiz Antônio Azevedo -->
 <!-- ========================= -->
 <div class="profile-header">
-<p align="center">
-  <h1 align="center">Luiz Antônio Azevedo</h1>
-  <p align="center"><strong>Data Scientist & Machine Learning Engineer</strong></p>
   <p align="center">
-    <a href="#-stack-tecnológico">🛠 Stack</a> •
-    <a href="#-formação--qualificações">🎓 Formação</a> •
-    <a href="#-experiência-profissional">💼 Experiência</a> •
-    <a href="#-pesquisa--colaborações">🔬 Pesquisa</a> •
-    <a href="#-portfólio-de-projetos">🚀 Portfólio</a> •
-    <a href="#-competências-técnicas">🎯 Competências</a> •
-    <a href="#-contato">📞 Contato</a>
+    <h1 align="center">Luiz Antônio Azevedo</h1>
+    <p align="center"><strong>Data Scientist & Machine Learning Engineer</strong></p>
+    <p align="center">
+      <a href="#-stack-tecnológico">🛠 Stack</a> •
+      <a href="#-formação--qualificações">🎓 Formação</a> •
+      <a href="#-experiência-profissional">💼 Experiência</a> •
+      <a href="#-pesquisa--colaborações">🔬 Pesquisa</a> •
+      <a href="#-portfólio-de-projetos">🚀 Portfólio</a> •
+      <a href="#-competências-técnicas">🎯 Competências</a> •
+      <a href="#-contato">📞 Contato</a>
+    </p>
   </p>
-</p>
 </div>
 
 ---
@@ -23,7 +23,7 @@
   
 ## 🛠 Stack Tecnológico
 
-  <p align="center">
+  <p align="center" class="stack-images">
     <!-- Linguagens e Ferramentas Principais -->
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
@@ -113,7 +113,7 @@
   <img src="https://img.shields.io/badge/Dash-008DE4?style=flat-square&logo=plotly&logoColor=white" alt="Dash" />  
   <img src="https://img.shields.io/badge/Plotly-FF6600?style=flat-square&logo=plotly&logoColor=white" alt="Plotly" />  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images chess-gallery">
     <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/e4c26e35-13c4-4541-a8f4-bd9f6d078937" alt="Chess 1" width="200" />
     <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/0183f766-f8c1-424c-b7d5-3c9ae1e70e31" alt="Chess 2" width="200" />
     <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/a49472a6-ddfb-4a50-b77b-35eeb7f1179f" alt="Chess 3" width="200" />
@@ -147,7 +147,7 @@
   - **Silver Layer:** Dados limpos e padronizados  
   - **Gold Layer:** Star Schema otimizado para BI  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/Medalion.png" alt="Data Warehouse" width="500" />
   </div>
 
@@ -162,7 +162,7 @@
   - **Recomendação estratégica:** Cashback entre 416% e 577%  
   - **Insights:** Balanceamento entre ROI e volume de vendas
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
   </div>
 
@@ -179,7 +179,7 @@
   - Consultas otimizadas diretamente em arquivos CSV  
   - Geração e processamento eficiente de dados sintéticos  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/1b.png" alt="Big Data" width="500" />
   </div>
 
@@ -196,7 +196,7 @@
   - Árvores de Decisão, Regressão Linear/Logística, Regressão Polinomial e Múltipla 
   - K-means Clustering, Naive Bayes, Redes Neurais  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/IA.png" alt="AI Study" width="500" />
   </div>
 
@@ -210,7 +210,7 @@
   - **Modelos:** LinearSVC, Logistic Regression, Naive Bayes  
   - **Avaliação:** F1-score, AUC-ROC, Matriz de Confusão  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/nple.png" alt="NLP Analysis" width="500" />
   </div>
 
@@ -228,7 +228,7 @@
   - 3 clusters comportamentais distintos  
   - 39 anomalias detectadas, incluindo eventos extremos de mercado  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/btc.png" alt="Crypto Analysis" width="500" />
   </div>
 
@@ -243,7 +243,7 @@
   - **Grafos:** Dijkstra, BFS, DFS  
   - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/estrtutura.png" alt="Data Structures" width="500" />
   </div>
 
@@ -257,7 +257,7 @@
   - **Busca em Profundidade (DFS)** – Exploração em profundidade  
   - **Dijkstra** – Algoritmo de caminho mínimo  
 - **Imagens:**  
-  <div align="center">
+  <div align="center" class="project-images">
     <img src="assets/graph.png" alt="Graph Analysis" width="500" />
   </div>
 
@@ -281,7 +281,7 @@
 <details>
   <summary>Clique para expandir o Mapa de Data Science</summary>
 
-  <div align="center">
+  <div align="center" class="project-images">
       <img src="assets/specialties.png" alt="Graph Analysis" width="500" />
   </div>
 </details>
