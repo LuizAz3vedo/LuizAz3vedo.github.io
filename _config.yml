@@ -79,6 +79,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-github-metadata
+  - jekyll-mermaid
+
 
 # Feed Configuration
 feed:
