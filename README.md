@@ -143,7 +143,7 @@
   - **Gold Layer:** Star Schema otimizado para BI  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/datawarehouse.png" alt="Data Warehouse" width="300" />
+    <img src="assets/Medalion.png" alt="Data Warehouse" width="300" />
   </div>
 
 ---
@@ -175,7 +175,7 @@
   - Geração e processamento eficiente de dados sintéticos  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/bigdata.png" alt="Big Data" width="300" />
+    <img src="assets/1b.png" alt="Big Data" width="300" />
   </div>
 
 ---
@@ -192,7 +192,7 @@
   - K-means Clustering, Naive Bayes, Redes Neurais  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/ml.png" alt="AI Study" width="300" />
+    <img src="assets/IA.png" alt="AI Study" width="300" />
   </div>
 
 ---
@@ -206,7 +206,7 @@
   - **Avaliação:** F1-score, AUC-ROC, Matriz de Confusão  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/npl.png" alt="NLP Analysis" width="300" />
+    <img src="assets/nple.png" alt="NLP Analysis" width="300" />
   </div>
 
 ---
@@ -224,7 +224,7 @@
   - 39 anomalias detectadas, incluindo eventos extremos de mercado  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/crypto.png" alt="Crypto Analysis" width="300" />
+    <img src="assets/btc.png" alt="Crypto Analysis" width="300" />
   </div>
 
 ---
@@ -239,7 +239,7 @@
   - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
 - **Imagens:**  
   <div align="center">
-    <img src="assets/datastructures.png" alt="Data Structures" width="300" />
+    <img src="assets/estrutura.png" alt="Data Structures" width="300" />
   </div>
 
 ---
@@ -276,6 +276,9 @@
 <details>
   <summary>Clique para expandir o Mapa de Data Science</summary>
 
+  <div align="center">
+      <img src="assets/specialties.png" alt="Graph Analysis" width="300" />
+  </div>
 </details>
 
 🌟 Diferenciais Competitivos
