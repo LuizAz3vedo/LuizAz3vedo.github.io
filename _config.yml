@@ -22,7 +22,7 @@ locale: pt_BR
 
 # Theme and Appearance
 theme: jekyll-theme-minimal
-logo: /assets/images/profile.jpg  # Adicione sua foto aqui
+logo: /assets/me.png  # Adicione sua foto aqui
 show_downloads: false
 
 # Navigation
