@@ -80,7 +80,7 @@
 - Elaborei material didático e exercícios práticos para fixação de conceitos.  
 - Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.
   
-### 🏢 Data Scientist | VisianSystems (Londres)  
+### 🏢 Data Scientist | VisianSystems 
 <sub>*Abril 2025 – Atualmente*</sub>  
 > **Projeto de Crypto & ETL End-to-End**  
 - Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
