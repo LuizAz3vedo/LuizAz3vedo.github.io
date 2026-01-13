@@ -4,7 +4,7 @@
 <div class="profile-header">
   <p align="center">
     <h1 align="center">Luiz Antônio Azevedo</h1>
-    <p align="center"><strong>Data Scientist</strong></p>
+    <p align="center"><strong>AI Engineer & Data Scientist</strong></p>
     <p align="center">
       <a href="#-stack-tecnológico">🛠 Stack</a> •
       <a href="#-formação--qualificações">🎓 Formação</a> •
@@ -25,15 +25,20 @@
     <!-- Linguagens e Ferramentas Principais -->
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+    <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
     <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
-    <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning" />
     <br><br>
     <!-- Bibliotecas de Data Science / ML -->
     <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
     <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+    <br><br>
+    <!-- Cloud & Infra -->
+    <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks" />
+    <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   </p>
 
 ---
@@ -41,7 +46,7 @@
 ## 🎓 Formação & Qualificações
 
 ### 📚 Educação Formal
-- **Bacharelado em Ciência da Computação**
+- **Bacharelado em Ciência da Computação** – Unifavip Wyden (2022-2025)
 
 ### 🚀 Especialização Avançada
 - **Bootcamp em LLMs e IA Avançada** (DataH – empresa canadense)  
@@ -50,18 +55,47 @@
   - 📖 Análise de artigos científicos recentes em IA  
   - 🌐 Visão internacional focada em IA de última geração
 
+### 📜 Certificações
+- Bootcamp Data Science Santander
+- Bootcamp Ciência de Dados com Python Santander
+- CyberSecurity Essentials – Cisco Academy
+- Fundamentos de Python para Análise de Dados e Data Science
+- Microsoft Power BI para Business Intelligence e Data Science
+- Finalista Desafio Jovem Empreendedor Sebrae
+
 ---
 
 ## 💼 Experiência Profissional
 
 ---
 
-### 🏥 Estagiário em Análise de Dados | Unimed  
-<sub>*Setembro 2023 – Janeiro 2024*</sub>  
-> **Transformando dados hospitalares em insights estratégicos**  
-- Realizei análises avançadas de dados clínicos para otimizar processos internos.  
-- Desenvolvi dashboards dinâmicos, facilitando tomadas de decisão.
-  
+### 🤖 AI Engineer & Data Scientist | NOTORIA
+<sub>*Junho 2025 – Atualmente*</sub>  
+> **Liderança em Projetos de IA End-to-End**  
+- Liderança no ciclo de vida completo de projetos de IA, da concepção à implementação em produção.
+- Arquitetura e desenvolvimento de modelos complexos de Machine Learning e Deep Learning para solucionar desafios de negócio.
+- Construção e otimização de pipelines de dados robustos e escaláveis para garantir a qualidade e o fluxo de informações.
+- Desenvolvimento e implantação de agentes LLM sofisticados para automação de tarefas e interações inteligentes.
+
+---
+
+### 🏢 Data Scientist Jr. | VisianSystems (Londres)
+<sub>*Abril 2025 – Junho 2025*</sub>  
+> **Projeto de Crypto & ETL End-to-End**  
+- Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
+- Gerenciei a arquitetura de dados garantindo escalabilidade e alta disponibilidade.  
+- Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
+- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.
+
+---
+
+### 👨‍🏫 Tutor de Programação | CESAR Institute  
+<sub>*Outubro 2024 – Março 2025*</sub>  
+> **Mentoria em Lógica de Programação para Jovens Talentos**  
+- Lecionei fundamentos de lógica de programação (Python, Javascript, Python para Dados) para alunos do Ensino Médio.  
+- Elaborei material didático e exercícios práticos para fixação de conceitos.  
+- Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.
+
 ---
 
 ### 💼 Estagiário em Business Intelligence | Adasi Software
@@ -73,20 +107,11 @@
 
 ---
 
-### 👨‍🏫 Tutor de Programação | CESAR Institute  
-<sub>*Outubro 2024 – Março 2025*</sub>  
-> **Mentoria em Lógica de Programação para Jovens Talentos**  
-- Lecionei fundamentos de lógica de programação (Python, Javascript, Python para Dados) para alunos do Ensino Médio.  
-- Elaborei material didático e exercícios práticos para fixação de conceitos.  
-- Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.
-  
-### 🏢 Data Scientist | VisianSystems 
-<sub>*Abril 2025 – Atualmente*</sub>  
-> **Projeto de Crypto & ETL End-to-End**  
-- Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
-- Gerenciei a arquitetura de dados garantindo escalabilidade e alta disponibilidade.  
-- Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
-- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.
+### 🏥 Estagiário em Análise de Dados | Unimed  
+<sub>*Setembro 2023 – Janeiro 2024*</sub>  
+> **Transformando dados hospitalares em insights estratégicos**  
+- Realizei análises avançadas de dados clínicos para otimizar processos internos.  
+- Desenvolvi dashboards dinâmicos, facilitando tomadas de decisão.
   
 ---
 
@@ -99,7 +124,29 @@
 
 ---
 
-## 🗂️   Portfólio de Projetos
+## 🗂️ Portfólio de Projetos
+
+### 🧠 Personal Knowledge Base (RAG System)
+- **Link:** [Repositório](https://github.com/LuizAz3vedo/personal-knowledge-base)  
+- **Objetivo:** Sistema RAG pessoal para consultar notas do Obsidian, PDFs e bookmarks usando LLMs locais via Ollama.  
+- **Tecnologias:**  
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />  
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />  
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&logoColor=white" alt="ChromaDB" />  
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />  
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" alt="Ollama" />  
+- **Arquitetura:**  
+  ```
+  Pergunta → Retriever (busca semântica) → ChromaDB → Re-Ranker → LLM (Ollama) → Resposta + Citações
+  ```
+- **Destaques:**  
+  - 📄 **Múltiplos formatos:** Markdown/Obsidian, PDF, URLs e bookmarks  
+  - 🔍 **Busca semântica** com embeddings `nomic-embed-text`  
+  - 🎯 **Re-ranking opcional** com Cross-Encoder para maior precisão  
+  - 📊 **Duas interfaces:** CLI interativa e Web (Streamlit)  
+  - 🔒 **100% local:** Nenhuma API externa, privacidade total
+
+---
 
 ### ♟️ Análise de Dados de Xadrez
 - **Link:** [Repositório](https://github.com/LuizAz3vedo/ChessProject)  
@@ -264,12 +311,13 @@
 
 | **Área**                 | **Tecnologias**                                        | **Nível**       |
 |--------------------------|--------------------------------------------------------|-----------------|
-| **🖥️ Linguagens**        | Python, SQL, R                                         | Avançado        |
-| **🤖 Machine Learning**   | Scikit-learn, TensorFlow, PyTorch                      | Avançado        |
-| **📊 Data Analysis**     | Pandas, NumPy, Matplotlib, Seaborn                      | Avançado    |
-| **💼 BI & Reporting**    | Power BI, Tableau                                     | Avançado        |
-| **🏗️ Data Engineering**  | SQL Server, PostgreSQL, DuckDB                         | Avançado   |
-| **☁️ Cloud & Big Data**  | AWS (S3, EMR, Lambda), Docker, Spark                    | Intermediário   |
+| **🖥️ Linguagens**        | Python, SQL, PySpark                                   | Avançado        |
+| **🤖 Machine Learning**   | Scikit-learn, TensorFlow, PyTorch, XGBoost             | Avançado        |
+| **🧠 NLP & LLMs**         | LangChain, Embeddings, RAG, Agentes LLM                | Avançado        |
+| **📊 Data Analysis**     | Pandas, NumPy, Matplotlib, Seaborn                      | Avançado        |
+| **💼 BI & Reporting**    | Power BI, Tableau                                      | Avançado        |
+| **🏗️ Data Engineering**  | SQL Server, PostgreSQL, DuckDB, Spark, Databricks      | Avançado        |
+| **☁️ Cloud & Big Data**  | GCP (BigQuery, Vertex AI), AWS, Docker                 | Intermediário   |
 
 ---
 
@@ -283,21 +331,32 @@
 
 
 🌟 Diferenciais Competitivos
-Visão de Negócio
+
+**Visão de Negócio**
 Habilidade de traduzir problemas complexos em soluções técnicas viáveis e escaláveis.
 
-Aprendizado Contínuo
-Atualização constante em IA e ML, com participação em bootcamp internacional DataH.
+**Experiência Internacional**
+Atuação em empresa londrina (VisianSystems) e formação em bootcamp canadense (DataH).
 
-Comunicação Eficaz
+**Liderança em IA**
+Ciclo de vida completo de projetos de IA, da concepção à produção, incluindo agentes LLM.
+
+**Aprendizado Contínuo**
+Atualização constante em IA, LLMs e técnicas de ponta em Machine Learning.
+
+**Comunicação Eficaz**
 Capacidade comprovada de apresentar insights técnicos de forma clara para stakeholders.
 
-Foco em Performance
-Otimização contínua de código e algoritmos para máxima eficiência computacional.
+---
 
-📞 Contato
+## 📞 Contato
+
 <p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> </p> 
+
 - 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 
+- 📱 (81) 99900-9029<br>
 - 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 
+- 🐙 <a href="https://github.com/LuizAz3vedo" target="_blank">GitHub</a><br>
 - 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> 
-<p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨
+
+<p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨ </p>
