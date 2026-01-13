@@ -1,13 +1,17 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🚀 LUIZ AZEVEDO | AI ENGINEER & DATA SCIENTIST
+# ═══════════════════════════════════════════════════════════════════════════════
+
 # Site Settings
-title: "Luiz Azevedo | Data Scientist"
-description: "Data Scientist especializado em Machine Learning, Business Intelligence e Big Data Analytics. Transformando dados em insights estratégicos para impulsionar decisões de negócio."
+title: "Luiz Azevedo | AI Engineer & Data Scientist"
+description: "AI Engineer & Data Scientist especializado em Large Language Models, Machine Learning e Data Analytics. Construindo sistemas de IA inteligentes que transformam dados em decisões estratégicas."
 baseurl: "" 
 url: "https://luizaz3vedo.github.io"
 
 # Author Information
 author: 
   name: "Luiz Antônio Azevedo"
-  bio: "Data Scientist & Machine Learning Engineer"
+  bio: "AI Engineer & Data Scientist | LLM Specialist"
   location: "Caruaru, Pernambuco, Brasil"
   email: "luizazevedo3212@hotmail.com"
   linkedin: "luiz-antônio-azevedo-34b38b23a"
@@ -22,7 +26,7 @@ locale: pt_BR
 
 # Theme and Appearance
 theme: jekyll-theme-minimal
-logo: /assets/me.png  # Adicione sua foto aqui
+logo: /assets/me.png
 show_downloads: false
 
 # Navigation
@@ -31,8 +35,10 @@ navigation:
     url: "/"
   - title: "Projetos"
     url: "#projetos"
-  - title: "Sobre"
-    url: "#sobre"
+  - title: "Stack"
+    url: "#stack"
+  - title: "Experiência"
+    url: "#experiencia"
   - title: "Contato"
     url: "#contato"
 
@@ -81,7 +87,6 @@ plugins:
   - jekyll-github-metadata
   - jekyll-mermaid
 
-
 # Feed Configuration
 feed:
   posts_limit: 10
@@ -91,69 +96,140 @@ feed:
 seo:
   type: Person
   name: "Luiz Antônio Azevedo"
-  tagline: "Data Scientist & Machine Learning Engineer"
+  tagline: "AI Engineer & Data Scientist | LLM Specialist"
 
 # GitHub Metadata
 repository: LuizAz3vedo/LuizAz3vedo.github.io
 
-# Custom Variables
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🎯 SKILLS & EXPERTISE
+# ═══════════════════════════════════════════════════════════════════════════════
+
 skills:
   - name: "Python"
-    level: 90
+    level: 95
     color: "#3776AB"
-  - name: "SQL"
-    level: 85
-    color: "#4479A1"
+  - name: "LLMs & GenAI"
+    level: 90
+    color: "#10A37F"
   - name: "Machine Learning"
-    level: 88
+    level: 92
     color: "#FF6F00"
+  - name: "SQL"
+    level: 88
+    color: "#4479A1"
+  - name: "Data Engineering"
+    level: 85
+    color: "#E44D26"
   - name: "Power BI"
     level: 85
     color: "#F2C811"
-  - name: "Data Analysis"
-    level: 92
-    color: "#E44D26"
-  - name: "Statistics"
-    level: 80
-    color: "#2F4F4F"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🛠️ TECHNOLOGY STACK
+# ═══════════════════════════════════════════════════════════════════════════════
 
 technologies:
   languages:
     - Python
     - SQL
-    - R
+    - PySpark
     - JavaScript
-  frameworks:
+    - R
+  
+  # 🤖 LLM & GenAI Stack
+  llm_stack:
+    - LangChain
+    - LangGraph
+    - LlamaIndex
+    - OpenAI API
+    - Anthropic Claude API
+    - Ollama
+    - HuggingFace Transformers
+    - RAG Systems
+    - Vector Databases
+    - Prompt Engineering
+    - Fine-tuning
+    - PEFT/LoRA
+  
+  # 🧠 ML/DL Frameworks
+  ml_frameworks:
     - TensorFlow
     - PyTorch
     - Scikit-learn
+    - XGBoost
+    - LightGBM
+    - Keras
+  
+  # 📊 Data Science
+  data_science:
     - Pandas
     - NumPy
-  tools:
-    - Power BI
-    - Tableau
-    - Git
-    - Docker
-    - AWS
+    - Matplotlib
+    - Seaborn
+    - Plotly
+    - SciPy
+  
+  # 🗄️ Databases & Vector Stores
   databases:
     - PostgreSQL
     - MySQL
     - MongoDB
     - DuckDB
+    - ChromaDB
+    - Pinecone
+    - Weaviate
+    - FAISS
+  
+  # ☁️ Cloud & Infrastructure
+  cloud:
+    - AWS (SageMaker, Bedrock)
+    - GCP (Vertex AI, BigQuery)
+    - Databricks
+    - Docker
+    - Kubernetes
+  
+  # 📈 BI & Visualization
+  bi_tools:
+    - Power BI
+    - Tableau
+    - Streamlit
+    - Dash
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🚀 FEATURED PROJECTS
+# ═══════════════════════════════════════════════════════════════════════════════
 
 projects_featured:
+  - title: "Personal Knowledge Base (RAG System)"
+    description: "Sistema RAG pessoal com LLMs locais para consultar documentos"
+    url: "https://github.com/LuizAz3vedo/personal-knowledge-base"
+    tech: ["LangChain", "ChromaDB", "Ollama", "Streamlit"]
+    category: "LLM"
+  
   - title: "Análise de Dados de Xadrez"
     description: "Análise de 20.000+ partidas do Lichess com dashboards interativos"
     url: "https://github.com/LuizAz3vedo/ChessProject"
-    tech: ["Python", "Pandas", "Dash"]
+    tech: ["Python", "Pandas", "Dash", "Plotly"]
+    category: "Data Analysis"
+  
   - title: "Data Warehouse Medallion"
     description: "Arquitetura moderna Bronze-Silver-Gold com SQL Server"
     url: "https://github.com/LuizAz3vedo/sql-data-warehouse"
     tech: ["SQL Server", "SSIS", "Power BI"]
+    category: "Data Engineering"
+  
   - title: "Big Data com DuckDB"
     description: "Processamento de 1 bilhão de registros"
     url: "https://github.com/LuizAz3vedo/bigdata-duckdb"
     tech: ["DuckDB", "Python", "Big Data"]
+    category: "Big Data"
+  
+  - title: "Crypto Analysis"
+    description: "Análise temporal avançada com SARIMA, GARCH e Prophet"
+    url: "https://github.com/LuizAz3vedo/crypto-analysis"
+    tech: ["Python", "Time Series", "ML"]
+    category: "Machine Learning"
 
 # Collections
 collections:
