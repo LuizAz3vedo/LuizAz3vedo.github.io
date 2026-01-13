@@ -1,362 +1,521 @@
-<!-- ========================= -->
-<!-- 👨‍💻 Luiz Antônio Azevedo -->
-<!-- ========================= -->
-<div class="profile-header">
-  <p align="center">
-    <h1 align="center">Luiz Antônio Azevedo</h1>
-    <p align="center"><strong>AI Engineer & Data Scientist</strong></p>
-    <p align="center">
-      <a href="#-stack-tecnológico">🛠 Stack</a> •
-      <a href="#-formação--qualificações">🎓 Formação</a> •
-      <a href="#-experiência-profissional">💼 Experiência</a> •
-      <a href="#-pesquisa--colaborações">🔬 Pesquisa</a> •
-      <a href="#-portfólio-de-projetos">🚀 Portfólio</a> •
-      <a href="#-competências-técnicas">🎯 Competências</a> •
-      <a href="#-contato">📞 Contato</a>
-    </p>
-  </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Luiz%20Antônio%20Azevedo&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descSize=20&descAlignY=55&descAlign=50"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Luiz%20Antônio%20Azevedo&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descSize=20&descAlignY=55&descAlign=50"/>
+  <img width="100%" alt="Header" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Luiz%20Antônio%20Azevedo&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descSize=20&descAlignY=55&descAlign=50"/>
+</picture>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Transformando+dados+em+intelig%C3%AAncia+artificial;Building+intelligent+AI+systems+that+matter)](https://git.io/typing-svg)
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LuizAz3vedo)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luizazevedo3212@hotmail.com)
+[![CV](https://img.shields.io/badge/Currículo-667EEA?style=for-the-badge&logo=googledocs&logoColor=white)](https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing)
+
+</div>
+
+<br>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Sobre Mim
+
+```python
+class AIEngineer:
+    def __init__(self):
+        self.name = "Luiz Antônio Azevedo"
+        self.role = "AI Engineer & Data Scientist"
+        self.location = "Caruaru, PE 🇧🇷"
+        self.focus = [
+            "Large Language Models",
+            "RAG Systems & AI Agents",
+            "Machine Learning",
+            "Data Engineering"
+        ]
+    
+    def current_work(self):
+        return "Building AI systems @ NOTORIA"
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 🌟 Destaques
+
+- 🤖 **Líder em projetos de IA** end-to-end
+- 🌍 **Experiência internacional** (UK & Canadá)
+- 🧠 **Especialista em LLMs** e sistemas RAG
+- 🔬 **Pesquisador** no dotLAB Brazil
+- 📊 **+3 anos** transformando dados em valor
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=LuizAz3vedo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667EEA&icon_color=764ba2&text_color=ffffff" width="100%"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
+  Tech Stack
+</h2>
+
+<br>
+
+<div align="center">
+
+### 🤖 LLM & Generative AI
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/LlamaIndex-8B5CF6?style=for-the-badge&logoColor=white" alt="LlamaIndex"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
+<br>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white" alt="Ollama"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace"/>
+<img src="https://img.shields.io/badge/RAG_Systems-10A37F?style=for-the-badge&logoColor=white" alt="RAG"/>
+<img src="https://img.shields.io/badge/AI_Agents-667EEA?style=for-the-badge&logoColor=white" alt="AI Agents"/>
+<img src="https://img.shields.io/badge/Fine--tuning-FF6B6B?style=for-the-badge&logoColor=white" alt="Fine-tuning"/>
+
+<br><br>
+
+### 🧠 Machine Learning & Deep Learning
+
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+<img src="https://img.shields.io/badge/XGBoost-00457C?style=for-the-badge&logoColor=white" alt="XGBoost"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
+
+<br><br>
+
+### 🗄️ Vector Databases & Storage
+
+<img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logoColor=white" alt="ChromaDB"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone"/>
+<img src="https://img.shields.io/badge/Weaviate-00D084?style=for-the-badge&logoColor=white" alt="Weaviate"/>
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logoColor=white" alt="FAISS"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+
+<br><br>
+
+### 📊 Data Science & Analytics
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+<img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark"/>
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB"/>
+
+<br><br>
+
+### ☁️ Cloud & MLOps
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-web-services&logoColor=white" alt="AWS"/>
+<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP"/>
+<img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow"/>
+
+<br><br>
+
+### 📈 BI & Visualization
+
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
+<img src="https://img.shields.io/badge/Dash-008DE4?style=for-the-badge&logo=plotly&logoColor=white" alt="Dash"/>
+
 </div>
 
 ---
-  
-## 🛠 Stack Tecnológico
 
-  <p align="center" class="stack-images">
-    <!-- Linguagens e Ferramentas Principais -->
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-    <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
-    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
-    <br><br>
-    <!-- Bibliotecas de Data Science / ML -->
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-    <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-    <br><br>
-    <!-- Cloud & Infra -->
-    <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks" />
-    <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  </p>
+<h2 align="center">
+  💼 Experiência Profissional
+</h2>
 
----
+<br>
 
-## 🎓 Formação & Qualificações
-
-### 📚 Educação Formal
-- **Bacharelado em Ciência da Computação** – Unifavip Wyden (2022-2025)
-
-### 🚀 Especialização Avançada
-- **Bootcamp em LLMs e IA Avançada** (DataH – empresa canadense)  
-  - 🤖 Estudo aprofundado de Large Language Models e aplicações práticas  
-  - 🔬 Projetos hands-on com modelos de ponta (GPT, BERT, etc.)  
-  - 📖 Análise de artigos científicos recentes em IA  
-  - 🌐 Visão internacional focada em IA de última geração
-
-### 📜 Certificações
-- Bootcamp Data Science Santander
-- Bootcamp Ciência de Dados com Python Santander
-- CyberSecurity Essentials – Cisco Academy
-- Fundamentos de Python para Análise de Dados e Data Science
-- Microsoft Power BI para Business Intelligence e Data Science
-- Finalista Desafio Jovem Empreendedor Sebrae
-
----
-
-## 💼 Experiência Profissional
-
----
+<table align="center" border="0">
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/robot-2.png" width="48"/>
+</td>
+<td>
 
 ### 🤖 AI Engineer & Data Scientist | NOTORIA
-<sub>*Junho 2025 – Atualmente*</sub>  
-> **Liderança em Projetos de IA End-to-End**  
-- Liderança no ciclo de vida completo de projetos de IA, da concepção à implementação em produção.
-- Arquitetura e desenvolvimento de modelos complexos de Machine Learning e Deep Learning para solucionar desafios de negócio.
-- Construção e otimização de pipelines de dados robustos e escaláveis para garantir a qualidade e o fluxo de informações.
-- Desenvolvimento e implantação de agentes LLM sofisticados para automação de tarefas e interações inteligentes.
+**Junho 2025 – Presente**
+
+> Liderança em projetos de IA end-to-end, desde a concepção até produção
+
+- 🚀 Arquitetura e desenvolvimento de modelos complexos de ML/DL
+- 🔗 Construção de pipelines de dados robustos e escaláveis
+- 🤖 Desenvolvimento e implantação de agentes LLM sofisticados
+- 📊 Orquestração de workflows com LangGraph e automações inteligentes
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/cryptocurrency.png" width="48"/>
+</td>
+<td>
+
+### 💹 Data Scientist Jr. | VisianSystems (Londres)
+**Abril 2025 – Junho 2025**
+
+> Projeto de Crypto Analytics & ETL End-to-End
+
+- 📈 ETL completo: coleta de APIs, tratamento e integração de dados
+- 🔄 Arquitetura de dados escalável e alta disponibilidade
+- 📊 Features customizadas para análise de criptomoedas
+- 🤖 Algoritmos de detecção de tendências com ML
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/classroom.png" width="48"/>
+</td>
+<td>
+
+### 👨‍🏫 Tutor de Programação | CESAR Institute
+**Outubro 2024 – Março 2025**
+
+> Mentoria em Lógica de Programação para Jovens Talentos
+
+- 📚 Python, JavaScript e Python para Data Science
+- 🎯 Material didático e exercícios práticos
+- 👥 Mentoria personalizada para estudantes do Ensino Médio
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/combo-chart.png" width="48"/>
+</td>
+<td>
+
+### 📊 Estagiário em BI | Adasi Software
+**Fevereiro 2024 – Agosto 2024**
+
+> Business Intelligence & Análises Gerenciais
+
+- 📉 Dashboards interativos em Power BI (↓40% tempo de relatórios)
+- 🐍 Automação de ETL com Python
+- 📈 Relatórios de KPIs para tomada de decisão
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🏢 Data Scientist Jr. | VisianSystems (Londres)
-<sub>*Abril 2025 – Junho 2025*</sub>  
-> **Projeto de Crypto & ETL End-to-End**  
-- Responsável por todo o processo de ETL: coleta de dados de APIs e exchanges, tratamento/limpeza, integração e carregamento em banco de dados.  
-- Gerenciei a arquitetura de dados garantindo escalabilidade e alta disponibilidade.  
-- Desenvolvi features customizadas para análise de tendências em criptomoedas (volatilidade, padrões de candles, sazonalidade).  
-- Criei e otimizei algoritmos de detecção de tendências e sinais de trading utilizando técnicas de Machine Learning.
+<h2 align="center">
+  🚀 Projetos em Destaque
+</h2>
 
----
+<br>
 
-### 👨‍🏫 Tutor de Programação | CESAR Institute  
-<sub>*Outubro 2024 – Março 2025*</sub>  
-> **Mentoria em Lógica de Programação para Jovens Talentos**  
-- Lecionei fundamentos de lógica de programação (Python, Javascript, Python para Dados) para alunos do Ensino Médio.  
-- Elaborei material didático e exercícios práticos para fixação de conceitos.  
-- Acompanhei o progresso individual dos estudantes, proporcionando mentoria personalizada.
+<div align="center">
 
----
+<a href="https://github.com/LuizAz3vedo/personal-knowledge-base">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LuizAz3vedo&repo=personal-knowledge-base&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667EEA&icon_color=764ba2" />
+</a>
+<a href="https://github.com/LuizAz3vedo/ChessProject">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LuizAz3vedo&repo=ChessProject&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667EEA&icon_color=764ba2" />
+</a>
 
-### 💼 Estagiário em Business Intelligence | Adasi Software
-<sub>*Fevereiro 2024 – Agosto 2024*</sub>  
-> **Business Intelligence & Relatórios Gerenciais**  
-- Criei relatórios detalhados e análises de indicadores de performance para clientes.  
-- Desenvolvi dashboards interativos em Power BI, reduzindo em 40% o tempo de elaboração de relatórios.  
-- Automatizei processos de extração e consolidação de dados usando scripts Python.  
+</div>
 
----
+<br>
 
-### 🏥 Estagiário em Análise de Dados | Unimed  
-<sub>*Setembro 2023 – Janeiro 2024*</sub>  
-> **Transformando dados hospitalares em insights estratégicos**  
-- Realizei análises avançadas de dados clínicos para otimizar processos internos.  
-- Desenvolvi dashboards dinâmicos, facilitando tomadas de decisão.
-  
----
+<table align="center" border="0">
+<tr>
+<td width="50%" valign="top">
 
-## 🔬 Pesquisa & Colaborações
+### 🧠 Personal Knowledge Base (RAG)
+<sup>**LangChain • ChromaDB • Ollama • Streamlit**</sup>
 
-### dotLAB Brazil  
-- **Membro do Grupo de Pesquisa**  
-- Foco em aplicar técnicas de Machine Learning e Deep Learning para aprimorar a tomada de decisões e otimizar processos, redes e serviços.
-- Condução de estudos colaborativos, workshops internos e experimentos com redes neurais e modelos generativos.
+Sistema RAG pessoal para consultar documentos usando LLMs locais
 
----
+```
+📄 Múltiplos formatos (MD, PDF, URLs)
+🔍 Busca semântica com embeddings
+🎯 Re-ranking com Cross-Encoder
+🔒 100% local e privado
+```
 
-## 🗂️ Portfólio de Projetos
+<a href="https://github.com/LuizAz3vedo/personal-knowledge-base">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-### 🧠 Personal Knowledge Base (RAG System)
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/personal-knowledge-base)  
-- **Objetivo:** Sistema RAG pessoal para consultar notas do Obsidian, PDFs e bookmarks usando LLMs locais via Ollama.  
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />  
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />  
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&logoColor=white" alt="ChromaDB" />  
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />  
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" alt="Ollama" />  
-- **Arquitetura:**  
-  ```
-  Pergunta → Retriever (busca semântica) → ChromaDB → Re-Ranker → LLM (Ollama) → Resposta + Citações
-  ```
-- **Destaques:**  
-  - 📄 **Múltiplos formatos:** Markdown/Obsidian, PDF, URLs e bookmarks  
-  - 🔍 **Busca semântica** com embeddings `nomic-embed-text`  
-  - 🎯 **Re-ranking opcional** com Cross-Encoder para maior precisão  
-  - 📊 **Duas interfaces:** CLI interativa e Web (Streamlit)  
-  - 🔒 **100% local:** Nenhuma API externa, privacidade total
+</td>
+<td width="50%" valign="top">
 
----
+### ♟️ Chess Analytics Dashboard
+<sup>**Python • Pandas • Dash • Plotly**</sup>
 
-### ♟️ Análise de Dados de Xadrez
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/ChessProject)  
-- **Objetivo:** Análise de 20.000+ partidas do Lichess para identificar padrões de performance por faixa de rating.  
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />  
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />  
-  <img src="https://img.shields.io/badge/Dash-008DE4?style=flat-square&logo=plotly&logoColor=white" alt="Dash" />  
-  <img src="https://img.shields.io/badge/Plotly-FF6600?style=flat-square&logo=plotly&logoColor=white" alt="Plotly" />  
-- **Imagens:**  
-  <div align="center" class="project-images chess-gallery">
-    <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/e4c26e35-13c4-4541-a8f4-bd9f6d078937" alt="Chess 1" width="200" />
-    <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/0183f766-f8c1-424c-b7d5-3c9ae1e70e31" alt="Chess 2" width="200" />
-    <img src="https://github.com/LuizAz3vedo/Portf-lio/assets/99042862/a49472a6-ddfb-4a50-b77b-35eeb7f1179f" alt="Chess 3" width="200" />
-  </div>
+Análise de 20.000+ partidas do Lichess
 
----
+```
+📊 Dashboards interativos
+📈 Padrões por faixa de rating
+🎯 Insights de performance
+🔍 Análise de aberturas
+```
 
-### 📊 Painel de BI + K-means
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/BI_kmeans)  
-- **Objetivo:** Utilizar o algoritmo **K-means** para construir um modelo de Machine Learning para segmentação de clientes e, em seguida, integrar esses resultados a um dashboard no **Power BI**
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />  
-  <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />  
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" alt="Power BI" />  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="https://github.com/user-attachments/assets/7aa0b3d9-cad5-4090-99de-77ff7c970951" alt="BI + K-means" style="width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  </div>
+<a href="https://github.com/LuizAz3vedo/ChessProject">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
----
+</td>
+</tr>
 
-### 🏗️ Data Warehouse (Medallion Architecture)
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/sql-data-warehouse)  
-- **Objetivo:** Data Warehouse empresarial com camadas Bronze, Silver e Gold.  
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />  
-  <img src="https://img.shields.io/badge/SSIS-CC2927?style=flat-square&logo=microsoft&logoColor=white" alt="SSIS" />  
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" alt="Power BI" />  
-- **Arquitetura:**  
-  - **Bronze Layer:** Dados brutos sem transformação  
-  - **Silver Layer:** Dados limpos e padronizados  
-  - **Gold Layer:** Star Schema otimizado para BI  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/Medalion.png" alt="Data Warehouse" width="500" />
-  </div>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🏗️ Data Warehouse Medallion
+<sup>**SQL Server • SSIS • Power BI**</sup>
 
-### 💰 Painel de Análise de Cashback
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/Painel_Analise_Cashback)  
-- **Objetivo:** Otimização de estratégias de cashback através de análise de ROI e volume de vendas.  
-- **Tecnologias:** Python (Pandas, Matplotlib, Seaborn), Power BI, Excel  
-- **Principais Resultados:**  
-  - **ROI do Grupo 1:** 17.338% (melhor performance)  
-  - **Recomendação estratégica:** Cashback entre 416% e 577%  
-  - **Insights:** Balanceamento entre ROI e volume de vendas
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/BI2.png" alt="Análise de Performance de Grupos com Cashback" style="width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  </div>
+Arquitetura moderna Bronze-Silver-Gold
 
----
+```
+🥉 Bronze: Dados brutos
+🥈 Silver: Dados limpos
+🥇 Gold: Star Schema para BI
+📊 Relatórios otimizados
+```
+
+<a href="https://github.com/LuizAz3vedo/sql-data-warehouse">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
 
 ### 🚀 Big Data com DuckDB
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/bigdata-duckdb)  
-- **Objetivo:** Processamento de 1 bilhão de registros meteorológicos com DuckDB sem carregar tudo em memória.  
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />  
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB" />  
-- **Destaques de Performance:**  
-  - Análise de grandes volumes sem carga em memória  
-  - Consultas otimizadas diretamente em arquivos CSV  
-  - Geração e processamento eficiente de dados sintéticos  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/1b.png" alt="Big Data" width="500" />
-  </div>
+<sup>**Python • DuckDB • Analytics**</sup>
+
+Processamento de 1 bilhão de registros
+
+```
+💾 Sem carregar tudo em memória
+⚡ Consultas otimizadas em CSV
+📊 Dados meteorológicos
+🔧 Geração de dados sintéticos
+```
+
+<a href="https://github.com/LuizAz3vedo/bigdata-duckdb">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 📈 Crypto Analysis
+<sup>**SARIMA • GARCH • Prophet • K-means**</sup>
+
+Análise temporal avançada do Bitcoin
+
+```
+📉 Séries temporais (SARIMA, Prophet)
+🔍 Detecção de anomalias
+📊 3 clusters comportamentais
+⚠️ 39 anomalias identificadas
+```
+
+<a href="https://github.com/LuizAz3vedo/crypto-analysis">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 BI + K-means Clustering
+<sup>**Scikit-learn • Power BI • Python**</sup>
+
+Segmentação de clientes com ML
+
+```
+🎯 Modelo K-means
+📊 Dashboard Power BI
+👥 Clusters de clientes
+📈 Insights estratégicos
+```
+
+<a href="https://github.com/LuizAz3vedo/BI_kmeans">
+  <img src="https://img.shields.io/badge/Ver_Projeto-667EEA?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<details>
+<summary><b>📚 Ver Mais Projetos</b></summary>
+
+<br>
+
+| Projeto | Descrição | Tecnologias |
+|---------|-----------|-------------|
+| [🤖 AI Study](https://github.com/LuizAz3vedo/AI-Study) | Implementações de ML/DL | TensorFlow, PyTorch, Scikit-learn |
+| [📊 NLP Twitter](https://github.com/LuizAz3vedo/NPL-Twitter) | Classificação de tweets sobre desastres | NLP, LinearSVC, Naive Bayes |
+| [💰 Cashback Analysis](https://github.com/LuizAz3vedo/Painel_Analise_Cashback) | Otimização de ROI de cashback | Python, Power BI, Analytics |
+| [🧮 Estrutura de Dados](https://github.com/LuizAz3vedo/Estrutura-de-Dados) | Algoritmos e estruturas | Python, Algoritmos |
+| [📊 Graph Analysis](https://github.com/LuizAz3vedo/graphs) | BFS, DFS, Dijkstra | Python, Graph Theory |
+
+</details>
 
 ---
 
-### 🤖 Estudos em Inteligência Artificial
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/AI-Study)  
-- **Objetivo:** Implementação prática de algoritmos de Machine Learning & Deep Learning.  
-- **Tecnologias:**  
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />  
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />  
-  <img src="https://img.shields.io/badge/Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />  
-- **Modelos Implementados:**  
-  - Árvores de Decisão, Regressão Linear/Logística, Regressão Polinomial e Múltipla 
-  - K-means Clustering, Naive Bayes, Redes Neurais  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/IA.png" alt="AI Study" width="500" />
-  </div>
+<h2 align="center">
+  🎓 Formação & Certificações
+</h2>
+
+<br>
+
+<table align="center" border="0">
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/graduation-cap.png" width="48"/>
+</td>
+<td>
+
+### 📚 Educação Formal
+**Bacharelado em Ciência da Computação** — Unifavip Wyden (2022-2025)
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="48"/>
+</td>
+<td>
+
+### 🚀 Especialização em IA
+**Bootcamp em LLMs e IA Avançada** — DataH (Canadá)
+- Large Language Models e aplicações práticas
+- Projetos hands-on com GPT, BERT, etc.
+- Análise de artigos científicos em IA
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/certificate.png" width="48"/>
+</td>
+<td>
+
+### 📜 Certificações
+`Bootcamp Data Science Santander` `Python para Data Science` `CyberSecurity Essentials - Cisco` 
+`Power BI para BI e Data Science` `Finalista Desafio Jovem Empreendedor Sebrae`
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="100">
+<img src="https://img.icons8.com/fluency/96/microscope.png" width="48"/>
+</td>
+<td>
+
+### 🔬 Pesquisa
+**Membro do dotLAB Brazil**
+- Machine Learning e Deep Learning aplicados
+- Workshops e experimentos com redes neurais
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 📊 NLP – Análise de Tweets sobre Desastres
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/NPL-Twitter)  
-- **Objetivo:** Classificação de tweets relacionados a desastres usando técnicas de NLP e modelos de ML.  
-- **Técnicas Aplicadas:**  
-  - **Pré-processamento:** Limpeza, tokenização, remoção de stopwords  
-  - **Modelos:** LinearSVC, Logistic Regression, Naive Bayes  
-  - **Avaliação:** F1-score, AUC-ROC, Matriz de Confusão  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/nple.png" alt="NLP Analysis" width="500" />
-  </div>
+<h2 align="center">
+  🎯 Competências
+</h2>
+
+<br>
+
+<div align="center">
+
+| Área | Tecnologias | Nível |
+|:----:|:-----------:|:-----:|
+| **🤖 LLMs & GenAI** | LangChain, LangGraph, RAG, AI Agents, Fine-tuning | ██████████ |
+| **🧠 Machine Learning** | TensorFlow, PyTorch, Scikit-learn, XGBoost | ██████████ |
+| **🐍 Python** | Pandas, NumPy, FastAPI, Async | ██████████ |
+| **🗄️ Data Engineering** | SQL, Spark, Databricks, ETL Pipelines | █████████░ |
+| **☁️ Cloud & MLOps** | AWS, GCP, Docker, MLflow | ████████░░ |
+| **📊 BI & Analytics** | Power BI, Tableau, Streamlit | █████████░ |
+
+</div>
 
 ---
 
-### 📈 Análise de Criptomoedas (Bitcoin)
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/crypto-analysis)  
-- **Objetivo:** Análise temporal avançada do Bitcoin (BTC/USD) usando séries temporais, clustering e detecção de anomalias.  
-- **Modelos Utilizados:**  
-  - **Séries Temporais:** SARIMA, GARCH, Prophet  
-  - **Clustering:** K-means para identificar comportamentos similares  
-  - **Detecção de Anomalias:** Isolation Forest  
-- **Principais Insights:**  
-  - Maior volatilidade identificada nos finais de semana  
-  - 3 clusters comportamentais distintos  
-  - 39 anomalias detectadas, incluindo eventos extremos de mercado  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/btc.png" alt="Crypto Analysis" width="500" />
-  </div>
+<h2 align="center">
+  📞 Vamos Conversar?
+</h2>
+
+<br>
+
+<div align="center">
+
+<a href="mailto:luizazevedo3212@hotmail.com">
+  <img src="https://img.shields.io/badge/Email-luizazevedo3212%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/">
+  <img src="https://img.shields.io/badge/LinkedIn-Luiz%20Azevedo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/LuizAz3vedo">
+  <img src="https://img.shields.io/badge/GitHub-LuizAz3vedo-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+📱 **(81) 99900-9029**
+
+<br>
 
 ---
 
-### 🧠 Algoritmos e Estruturas de Dados
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/Estrutura-de-Dados)  
-- **Objetivo:** Implementações didáticas de algoritmos de busca, grafos, programação dinâmica e algoritmos gulosos.  
-- **Implementações Principais:**
-  - **Estruturas de Dados**: Implementações de listas, pilhas, filas, árvores
-  - **Busca:** Linear, Binária  
-  - **Grafos:** Dijkstra, BFS, DFS  
-  - **Técnicas Avançadas:** Programação Dinâmica, Algoritmos Gulosos  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/estrtutura.png" alt="Data Structures" width="500" />
-  </div>
+<br>
 
----
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Machine%20Learning%2C%20human%20thinking.&author=Luiz%20Azevedo" />
 
-### 📊 Análise de Grafos
-- **Link:** [Repositório](https://github.com/LuizAz3vedo/graphs)  
-- **Objetivo:** Exploração de algoritmos clássicos em grafos: BFS, DFS e Dijkstra.  
-- **Algoritmos Implementados:**  
-  - **Busca em Largura (BFS)** – Exploração por níveis  
-  - **Busca em Profundidade (DFS)** – Exploração em profundidade  
-  - **Dijkstra** – Algoritmo de caminho mínimo  
-- **Imagens:**  
-  <div align="center" class="project-images">
-    <img src="assets/graph.png" alt="Graph Analysis" width="500" />
-  </div>
+<br>
 
----
+![Profile Views](https://komarev.com/ghpvc/?username=LuizAz3vedo&color=667eea&style=for-the-badge&label=PROFILE+VIEWS)
 
-## 🎯 Competências Técnicas
+</div>
 
-| **Área**                 | **Tecnologias**                                        | **Nível**       |
-|--------------------------|--------------------------------------------------------|-----------------|
-| **🖥️ Linguagens**        | Python, SQL, PySpark                                   | Avançado        |
-| **🤖 Machine Learning**   | Scikit-learn, TensorFlow, PyTorch, XGBoost             | Avançado        |
-| **🧠 NLP & LLMs**         | LangChain, Embeddings, RAG, Agentes LLM                | Avançado        |
-| **📊 Data Analysis**     | Pandas, NumPy, Matplotlib, Seaborn                      | Avançado        |
-| **💼 BI & Reporting**    | Power BI, Tableau                                      | Avançado        |
-| **🏗️ Data Engineering**  | SQL Server, PostgreSQL, DuckDB, Spark, Databricks      | Avançado        |
-| **☁️ Cloud & Big Data**  | GCP (BigQuery, Vertex AI), AWS, Docker                 | Intermediário   |
-
----
-
-## 🗺 Mapa de Data Science
-
-<summary>Mapa de Data Science</summary>
-
-  <div align="center" class="project-images">
-      <img src="assets/specialties.png" alt="Graph Analysis" width="500" />
-  </div>
-
-
-🌟 Diferenciais Competitivos
-
-**Visão de Negócio**
-Habilidade de traduzir problemas complexos em soluções técnicas viáveis e escaláveis.
-
-**Experiência Internacional**
-Atuação em empresa londrina (VisianSystems) e formação em bootcamp canadense (DataH).
-
-**Liderança em IA**
-Ciclo de vida completo de projetos de IA, da concepção à produção, incluindo agentes LLM.
-
-**Aprendizado Contínuo**
-Atualização constante em IA, LLMs e técnicas de ponta em Machine Learning.
-
-**Comunicação Eficaz**
-Capacidade comprovada de apresentar insights técnicos de forma clara para stakeholders.
-
----
-
-## 📞 Contato
-
-<p align="center"> <strong>Pronto para transformar dados em valor?</strong><br><br> </p> 
-
-- 📧 <a href="mailto:luizazevedo3212@hotmail.com">luizazevedo3212@hotmail.com</a><br> 
-- 📱 (81) 99900-9029<br>
-- 💼 <a href="https://www.linkedin.com/in/luiz-antônio-azevedo-34b38b23a/" target="_blank">LinkedIn</a><br> 
-- 🐙 <a href="https://github.com/LuizAz3vedo" target="_blank">GitHub</a><br>
-- 📄 <a href="https://drive.google.com/file/d/1hlYLiwZtI-WANvG2UJHR35TIB0Jp6FNS/view?usp=sharing" target="_blank">Currículo (PDF)</a> 
-
-<p align="center"> ✨ <em>"Machine Learning, human thinking."</em> ✨ </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer"/>
+  <img width="100%" alt="Footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer"/>
+</picture>
