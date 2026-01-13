@@ -25,8 +25,7 @@ lang: pt-BR
 locale: pt_BR
 
 # Theme and Appearance
-remote_theme: pages-themes/minimal@v0.2.0
-# logo: /assets/me.png  # Uncomment only if you have this file
+remote_theme: pages-themes/cayman@v0.2.0
 show_downloads: false
 
 # Navigation
