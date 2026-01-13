@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Luiz%20Antônio%20Azevedo&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descSize=20&descAlignY=55&descAlign=50"/>
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Luiz%20Antônio%20Azevedo&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descSize=20&descAlignY=55&descAlign=50"/>
