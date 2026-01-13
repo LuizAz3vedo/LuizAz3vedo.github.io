@@ -25,8 +25,8 @@ lang: pt-BR
 locale: pt_BR
 
 # Theme and Appearance
-theme: jekyll-theme-minimal
-logo: /assets/me.png
+remote_theme: pages-themes/minimal@v0.2.0
+# logo: /assets/me.png  # Uncomment only if you have this file
 show_downloads: false
 
 # Navigation
@@ -49,10 +49,6 @@ social:
     - https://github.com/LuizAz3vedo
     - mailto:luizazevedo3212@hotmail.com
 
-# SEO and Meta Tags
-google_analytics: # Adicione seu código do Google Analytics aqui
-google_site_verification: # Adicione sua verificação do Google Search Console
-
 # Markdown Processing
 markdown: kramdown
 highlighter: rouge
@@ -70,22 +66,20 @@ kramdown:
 sass:
   style: compressed
   sass_dir: _sass
-  load_paths:
-    - _sass
-    - node_modules
 
-# Plugin Configuration
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🔌 PLUGINS - Only GitHub Pages supported plugins
+# ═══════════════════════════════════════════════════════════════════════════════
 plugins:
-  - jekyll-default-layout
   - jekyll-feed
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-titles-from-headings
   - jekyll-github-metadata
-  - jekyll-mermaid
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 
 # Feed Configuration
 feed:
@@ -137,7 +131,6 @@ technologies:
     - JavaScript
     - R
   
-  # 🤖 LLM & GenAI Stack
   llm_stack:
     - LangChain
     - LangGraph
@@ -152,7 +145,6 @@ technologies:
     - Fine-tuning
     - PEFT/LoRA
   
-  # 🧠 ML/DL Frameworks
   ml_frameworks:
     - TensorFlow
     - PyTorch
@@ -161,7 +153,6 @@ technologies:
     - LightGBM
     - Keras
   
-  # 📊 Data Science
   data_science:
     - Pandas
     - NumPy
@@ -170,7 +161,6 @@ technologies:
     - Plotly
     - SciPy
   
-  # 🗄️ Databases & Vector Stores
   databases:
     - PostgreSQL
     - MySQL
@@ -181,7 +171,6 @@ technologies:
     - Weaviate
     - FAISS
   
-  # ☁️ Cloud & Infrastructure
   cloud:
     - AWS (SageMaker, Bedrock)
     - GCP (Vertex AI, BigQuery)
@@ -189,7 +178,6 @@ technologies:
     - Docker
     - Kubernetes
   
-  # 📈 BI & Visualization
   bi_tools:
     - Power BI
     - Tableau
@@ -231,12 +219,6 @@ projects_featured:
     tech: ["Python", "Time Series", "ML"]
     category: "Machine Learning"
 
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
-
 # Defaults
 defaults:
   - scope:
@@ -244,23 +226,14 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
 
 # Build Settings
 future: false
-unpublished: false
 safe: true
-incremental: false
-profile: false
 
 # File Processing
 include:
   - _pages
-  - _projects
   - .htaccess
 
 exclude:
@@ -278,26 +251,4 @@ exclude:
   - package-lock.json
   - gulpfile.js
   - yarn.lock
-
-# Optimization
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-
-# Development
-livereload: true
-host: 0.0.0.0
-port: 4000
-
-# Custom CSS and JS
-custom_css:
-  - /assets/css/custom.css
-  - /assets/css/animations.css
-
-custom_js:
-  - /assets/js/custom.js
-  - /assets/js/animations.js
+  - README.md
